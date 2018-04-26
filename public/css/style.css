@@ -1,0 +1,55 @@
+/* Author: Bagus Dwi Utama @baguskah 082116611993*/
+/* Template: BLST-Company */
+
+
+/* Header */
+#logo-perusahaan-warper {
+  max-width: 200px;
+}
+
+#logo{
+  max-width: 200px;
+}
+
+#navbarNav{
+  background: white;
+  padding:10px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+#navbarNav ul{
+  margin:0;
+  padding:0
+}
+
+#navbarNav ul li{
+  list-style-type: none;
+  display: inline;
+  margin:10px
+}
+
+#navbarNav ul li a{
+  color:black;
+}
+
+.right-header-panel div{
+  float:right;
+  font-size: 15pt;
+
+}
+
+select.select-lg-transparent {
+    background: none;
+    color:  white;
+    height:30px;
+    font-size: 14pt;
+}
+
+.search-warper{
+  color:white;
+  padding:10px;
+}
+
+#language-switcher-warper{
+  padding: 10px;
+}
