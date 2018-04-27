@@ -1,10 +1,16 @@
 /* Author: Bagus Dwi Utama @baguskah 082116611993*/
 /* Template: BLST-Company */
 
+@media only screen and (max-width: 768px) {
+.hide-tablet{
+  display: none;
+}
+}
 
 /* Header */
 #logo-perusahaan-warper {
   max-width: 200px;
+  margin-top: 50px;
 }
 
 #logo{
@@ -33,7 +39,7 @@
 }
 
 .right-header-panel div{
-  float:right;
+
   font-size: 15pt;
 
 }
@@ -46,10 +52,195 @@ select.select-lg-transparent {
 }
 
 .search-warper{
+  position: absolute;
+  right: 30px;
   color:white;
   padding:10px;
+  width: 72px;
 }
 
 #language-switcher-warper{
+  position: absolute;
+  right: 2px;
   padding: 10px;
+  width: 72px;
+}
+
+.menu-column{
+    text-align: right;
+    width: 130px;
+    float: right;
+    padding-top: 30px;
+  }
+
+  .tombol-menu{
+    color: white;
+    margin-top: 70px;
+    float:right;
+  }
+
+  .menuspan{
+    font-size: 19pt;
+    font-weight: 600;
+  }
+
+  .icMenu{
+    width: 45px;
+      height: 33px;
+      position: relative;
+      margin: 0;
+      float: right;
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transition: .5s ease-in-out;
+      -moz-transition: .5s ease-in-out;
+      -o-transition: .5s ease-in-out;
+      transition: .5s ease-in-out;
+      cursor: pointer;
+  }
+
+  .icMenu span{
+      display: block;
+      position: absolute;
+      height: 5px;
+      width: 100%;
+      background: white;
+      border-radius: 9px;
+      opacity: 1;
+      left: 10px;
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transition: .25s ease-in-out;
+      -moz-transition: .25s ease-in-out;
+      -o-transition: .25s ease-in-out;
+      transition: .25s ease-in-out;
+
+  }
+
+  .icMenu span:nth-child(1) {
+      top: 0;
+      -webkit-transform-origin: left center;
+      -moz-transform-origin: left center;
+      -o-transform-origin: left center;
+      transform-origin: left center;
+  }
+
+  .icMenu span:nth-child(2) {
+      top: 15px;
+      -webkit-transform-origin: left center;
+      -moz-transform-origin: left center;
+      -o-transform-origin: left center;
+      transform-origin: left center;
+  }
+
+  .icMenu span:nth-child(3) {
+      top: 30px;
+      -webkit-transform-origin: left center;
+      -moz-transform-origin: left center;
+      -o-transform-origin: left center;
+      transform-origin: left center;
+  }
+
+
+/* Menu Kanan Slide */
+/* Slider Navigasi */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #333333;
+    overflow-x: hidden;
+    transition: 0.3s;
+    /* padding-top: 60px; */
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+    crusor:pointer;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    color: black;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav-header{
+  height: 10%;
+  background: #ffa100;
+  padding: 20px;
+  margin-bottom: 18px;
+}
+
+.sidenav-footer{
+  /* height: 100%; */
+  /* background: #ffa100; */
+  margin-top: 22px;
+}
+
+.nav-title{
+  font-size: 15pt;
+  padding-left: 11px;
+  font-weight: 600;
+}
+
+.logo-menu-button{
+  position: absolute;
+  bottom: 46px;
+  left: 22px;
+}
+
+.logo-menu-button img{
+  width: 100px;
+}
+
+.logo-medsos{
+  position: absolute;
+  bottom: 19px;
+  padding: 12px;
+  margin: 10px;
+  color: #555555;
+  right: 0px;
+  font-size: 26pt;
+}
+
+#header-menu-title {
+    position: relative;
+    -moz-box-shadow: 1px 2px 40px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 40px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 40px rgba(0, 0, 0, .5);
+    /* padding: 10px; */
+
+}
+
+#header-menu-title::after {
+    content: '';
+    position: absolute;
+    z-index: -1; /* hide shadow behind image */
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    left: 0%; /* one half of the remaining 30% */
+    height: 100px;
+    bottom: 0;
 }

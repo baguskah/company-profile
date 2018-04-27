@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{-- <meta name="viewport" content="width=device-width, initial-scale=1"> --}}
     <title>PT BLST</title>
 
     <!-- Bootstrap -->
@@ -28,13 +28,13 @@
                 {{-- Logo --}}
                 <div class="col-md-4">
                   <div id="logo-perusahaan-warper">
-                    <img id="logo"class="img img-responsive" src="{{asset('images/logo-company-white.png')}}" alt="">
+                    <img id="logo"class="img img-responsive" src="{{asset('images/logo-company.png')}}" alt="">
                   </div>
                 </div>
 
                 {{-- Menu Atas --}}
                 <div class="col-md-4">
-                  <div class="nav navbar" id="navbarNav">
+                  <div class="nav navbar hide-tablet" id="navbarNav">
                     <ul class="">
                       <li>
                         <a href="#">Home <span class="sr-only">(current)</span></a>
@@ -54,17 +54,34 @@
 
                 {{-- Search --}}
                 <div class="col-md-4">
-                  <div class="right-header-panel">
-                    <div id="language-switcher-warper">
-                      <select class="select-lg-transparent" name="">
-                        <option value="">EN</option>
-                        <option value="">ID</option>
-                      </select>
+                  {{-- <div class="right-header-panel"> --}}
+                  <div class="row">
+                    <div class="col-md-6 push-right">
+
                     </div>
-                    <div class="search-warper">
-                      <span style="cursor:pointer" class="fa fa-search"></span>
+                    <div class="col-md-6">
+                      <div id="language-switcher-warper">
+                        <select class="select-lg-transparent" name="">
+                          <option value="">EN</option>
+                          <option value="">ID</option>
+                        </select>
+                      </div>
+                      <div class="search-warper">
+                        <span style="cursor:pointer" class="fa fa-search"></span>
+                      </div>
                     </div>
                   </div>
+                  {{-- </div> --}}
+                    <div class="">
+                      <div class="tombol-menu">
+                        <span class="menuspan">Menu</span>
+                        <a href="#menu" onclick="openNav()" class="icMenu">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </a>
+                      </div>
+                    </div>
                 </div>
 
               </div>
@@ -73,6 +90,43 @@
         </div>
 
     </div>
+
+    {{-- Menu Slider Samping --}}
+    <div id="mySidenav" class="sidenav">
+        <div class="sidenav-header" id="header-menu-title">
+          <span class="nav-title">Menu</span>
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        </div>
+
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+
+        <div class="sidenav-footer">
+          <div class="logo-menu-button">
+            <img class="img" src="{{asset('images/logo-company.png')}}" alt="">
+          </div>
+          <div class="logo-medsos">
+
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-twitter-square"></i>
+            <i class="fa fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript">
+        function openNav() {
+          $('#mySidenav').css('width', "300px");
+        }
+
+        function closeNav() {
+          $('#mySidenav').css('width', "0px");
+        }
+      </script>
+
+
+    {{-- Slider --}}
 
 
 
