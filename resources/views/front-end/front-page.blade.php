@@ -20,32 +20,30 @@
   </head>
   <body>
     {{-- Slider --}}
-    <div style="text-align:center" id="slider-navigation">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
-    <div class="slider-wrapper">
-      <div class="mySlides">
-        <img src="{{asset('images/slider/hero2.jpg')}}" style="width:100%">
-        <div class="container">
-          <div class="text">
-            <div class="">
-              <span class="mean_cap">Menuju Sciencepark No 1</span>
-              <span class="sub_cap">di Indonesia</span>
-              <!-- <a href="#" class="btn_details"><span>More Details</span> <img src="img/btn_arrow.png" alt="" class="arrow"></a> -->
+    <div class="row">
+      <div style="text-align:center" id="slider-navigation">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      <div class="slider-wrapper">
+        <div class="mySlides">
+          <img src="{{asset('images/slider/hero2.jpg')}}" style="width:100%">
+          <div class="container">
+            <div class="text">
+              <div class="">
+                <span class="mean_cap">Menuju Sciencepark No 1</span>
+                <span class="sub_cap">di Indonesia</span>
+                <!-- <a href="#" class="btn_details"><span>More Details</span> <img src="img/btn_arrow.png" alt="" class="arrow"></a> -->
+              </div>
             </div>
           </div>
         </div>
       </div>
-
     </div>
 
-
-
-
     {{-- Bagian Atas --}}
-<div class="container-fluid" style="background:grey">
+<div class="container-fluid" style="height:-webkit-fill-available;">
       <div class="row">
         <div class="container">
           <div class="col-md-12 header">
@@ -108,13 +106,11 @@
                       </div>
                     </div>
                 </div>
-
               </div>
-
           </div>
         </div>
+      </div>
 
-    </div>
     {{-- Menu Slider Samping --}}
     <div id="mySidenav" class="sidenav">
         <div class="sidenav-header" id="header-menu-title">
@@ -149,6 +145,19 @@
         }
       </script>
 </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-2">
+      <h2>Berita</h2>
+      <h2>Terbaru</h2>
+    </div>
+    <div class="col-md-10">
+
+    </div>
+  </div>
+</div>
+
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
