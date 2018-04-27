@@ -19,8 +19,33 @@
     <![endif]-->
   </head>
   <body>
+    {{-- Slider --}}
+    <div style="text-align:center" id="slider-navigation">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <div class="slider-wrapper">
+      <div class="mySlides">
+        <img src="{{asset('images/slider/hero2.jpg')}}" style="width:100%">
+        <div class="container">
+          <div class="text">
+            <div class="">
+              <span class="mean_cap">Menuju Sciencepark No 1</span>
+              <span class="sub_cap">di Indonesia</span>
+              <!-- <a href="#" class="btn_details"><span>More Details</span> <img src="img/btn_arrow.png" alt="" class="arrow"></a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
     {{-- Bagian Atas --}}
-    <div class="container-fluid" style="background:grey">
+<div class="container-fluid" style="background:grey">
       <div class="row">
         <div class="container">
           <div class="col-md-12 header">
@@ -28,7 +53,7 @@
                 {{-- Logo --}}
                 <div class="col-md-4">
                   <div id="logo-perusahaan-warper">
-                    <img id="logo"class="img img-responsive" src="{{asset('images/logo-company.png')}}" alt="">
+                    <img id="logo"class="img img-responsive" src="{{asset('images/logo-company-white.png')}}" alt="">
                   </div>
                 </div>
 
@@ -90,7 +115,6 @@
         </div>
 
     </div>
-
     {{-- Menu Slider Samping --}}
     <div id="mySidenav" class="sidenav">
         <div class="sidenav-header" id="header-menu-title">
@@ -124,15 +148,46 @@
           $('#mySidenav').css('width', "0px");
         }
       </script>
-
-
-    {{-- Slider --}}
-
-
+</div>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+{{-- script slider --}}
+<script type="text/javascript">
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+
+
   </body>
 </html>
