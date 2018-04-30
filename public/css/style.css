@@ -424,3 +424,7 @@ select.select-lg-transparent {
     height: 100px;
     bottom: 0;
 }
+
+#slider-wrapper{
+  height:-webkit-fill-available;
+}

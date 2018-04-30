@@ -43,7 +43,7 @@
     </div>
 
     {{-- Bagian Atas --}}
-<div class="container-fluid" style="height:-webkit-fill-available;">
+<div class="container-fluid" id="slider-wrapper" style="height:-webkit-fill-available;">
       <div class="row">
         <div class="container">
           <div class="col-md-12 header">
