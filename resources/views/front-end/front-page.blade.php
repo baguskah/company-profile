@@ -166,31 +166,29 @@
                     <span class="date-berita">18 Maret 2018</span>
                   </div>
                   <a href="#">
-                    UI MENGGANDENG ADARO SEBAGAI SPONSOR UTAMA UIHM
+                    BLST MENGGANDENG ADARO SEBAGAI SPONSOR UTAMA
                   </a>
                 </div>
               </li>
-              <li class="li-slide-berita">
-                <div class="berita-list">
-                  <span class="date-berita">32 Juni 2018</span>
+              <li class="li-slide-berita" >
+                <div class="berita-list" style="position:relative">
+                  <div class="category-company-wrapper">
+                    <span class="tag-company">BLST</span>
+                    <span class="date-berita">18 Maret 2018</span>
+                  </div>
                   <a href="#">
-                    UI MEMBUAT GEBRAKAN BARU MELALUI UIHM YEAS
+                    BLST MENGGANDENG ADARO SEBAGAI SPONSOR UTAMA
                   </a>
                 </div>
               </li>
-              <li class="li-slide-berita">
-                <div class="berita-list">
-                  <span class="date-berita">32 Juni 2018</span>
+              <li class="li-slide-berita" >
+                <div class="berita-list" style="position:relative">
+                  <div class="category-company-wrapper">
+                    <span class="tag-company">BLST</span>
+                    <span class="date-berita">18 Maret 2018</span>
+                  </div>
                   <a href="#">
-                    UI MEMBUAT GEBRAKAN BARU MELALUI UIHM HOE
-                  </a>
-                </div>
-              </li>
-              <li class="li-slide-berita">
-                <div class="berita-list">
-                  <span class="date-berita">32 Juni 2018</span>
-                  <a href="#">
-                    UI MEMBUAT GEBRAKAN BARU MELALUI UIHM HAU
+                    BLST MENGGANDENG ADARO SEBAGAI SPONSOR UTAMA
                   </a>
                 </div>
               </li>
@@ -220,6 +218,21 @@
         </div>
   </div>
 </div>
+
+{{-- Start About BLST section --}}
+<div class="container-fluid short-desc-wrapper">
+  <div class="row">
+    <div class="col-md-12">
+      <ul class="nav nav-pills nav-fill tab-atas-short-desc">
+        <li class="nav-link title-company">PT Bogor Life Science <br> and Technology</li>
+        <li><a class="nav-link tab-atas aktif" href="#">Tentang Kami</a></li>
+        <li><a class="nav-link tab-atas" href="#">Portfolio Bisnis</a></li>
+        <li><a class="nav-link tab-atas" href="#">Kepemilikan Saham</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 
 
 

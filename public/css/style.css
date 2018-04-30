@@ -675,3 +675,39 @@ select.select-lg-transparent {
     color: white;
     font-weight: 500;
 }
+
+.short-desc-wrapper {
+    background: orange;
+    margin-top: 3em;
+    padding: 20px;
+    display: block;
+}
+
+.tab-atas-short-desc {
+    width: 100%;
+    background: white;
+    padding: 14px;
+    margin-top: -28px;
+}
+
+.tab-atas-short-desc .title-company{
+  font-family: "lato-light", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  color: #696969;
+  text-transform: uppercase;
+  line-height: 28px;
+}
+
+a.nav-link.tab-atas {
+    background: gainsboro;
+    color: black;
+    margin: 11px;
+    text-transform: uppercase;
+}
+
+a.nav-link.tab-atas.aktif{
+    background: orange;
+    color:white;
+    font-weight: bolder;
+}
