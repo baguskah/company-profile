@@ -230,7 +230,7 @@
 }
 
 #menu-kanan {
-    width: auto;    
+    width: auto;
     height: auto;
     position: absolute;
     right: 15px;
@@ -244,7 +244,7 @@
 }
 
 #navbarNav ul{
-  margin:0;
+  margin:auto;
   padding:0
 }
 
@@ -256,6 +256,7 @@
 
 #navbarNav ul li a{
   color:black;
+  font-size: 10pt;
 }
 
 .right-header-panel div{
@@ -466,5 +467,211 @@ select.select-lg-transparent {
 }
 
 #slider-wrapper{
-  height:-webkit-fill-available;
+  height: 550px;
+}
+
+.up-head-bold{
+  font-family: "lato-black", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  color: #696969;
+  text-transform: uppercase;
+}
+
+.down-head-bold{
+  font-family: "lato-light", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  color: #696969;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+
+/* Featured News */
+.flex-viewport{
+  overflow: hidden; position: relative;
+}
+
+
+.berita-terakhir{
+    margin-top: 26px;
+    padding: 17px;
+
+}
+
+.up-head-bold{
+  font-family: "lato-black", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  color: #696969;
+  text-transform: uppercase;
+}
+
+.down-head-bold{
+  font-family: "lato-light", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  color: #696969;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+
+.li-slide-berita {
+  width: 4%;
+  margin-right: 0px;
+  float: left;
+  display: block;
+}
+
+.berita-list .date-berita{
+  color: #666;
+  text-decoration: none;
+  font-family: "lato-light", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 22px;
+  display: block;
+}
+
+.berita-list a{
+    color: #5c5c5c;
+    text-decoration: none;
+    font-family: "lato-black", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    padding-right: 3em;
+    line-height: 1.2em;
+}
+
+.slides-berita{
+  width:1000%;
+  transition-duration: 0.5s;
+  transform:translate3d(0px,0px,0px);
+}
+
+.flex-direction-nav{
+  list-style: none;
+  display: flex;
+  margin: 0px;
+  position: absolute;
+  right: -51px;
+  top: 23px;
+}
+
+
+
+#geserkiri:before{
+    font-family: "FontAwesome";
+    font-size: 50px;
+    display: inline-block;
+    content: '\f104';
+    color: #696969;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+    line-height: 1;
+}
+
+#geserkanan:before{
+    font-family: "FontAwesome";
+    font-size: 50px;
+    display: inline-block;
+    content: '\f105';
+    color: #696969;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+    line-height: 1;
+}
+.flex-viewport{
+  overflow: hidden; position: relative;
+}
+
+
+.berita-terakhir{
+    margin-top: 26px;
+    padding: 17px;
+
+}
+
+.up-head-bold{
+  font-family: "lato-black", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  color: #696969;
+  text-transform: uppercase;
+}
+
+.down-head-bold{
+  font-family: "lato-light", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  color: #696969;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+
+.li-slide-berita {
+  width: 4%;
+  margin-right: 0px;
+  float: left;
+  display: block;
+}
+
+.berita-list .date-berita{
+  color: #666;
+  text-decoration: none;
+  font-family: "lato-light", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 22px;
+  display: block;
+}
+
+.berita-list a{
+    color: #5c5c5c;
+    text-decoration: none;
+    font-family: "lato-black", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    padding-right: 3em;
+    line-height: 1.2em;
+}
+
+.slides-berita{
+  width:1000%;
+  transition-duration: 0.5s;
+  transform:translate3d(0px,0px,0px);
+}
+
+.flex-direction-nav{
+  list-style: none;
+  display: flex;
+  margin: 0px;
+  position: absolute;
+  right: -51px;
+  top: 23px;
+}
+
+
+
+#geserkiri:before{
+    font-family: "FontAwesome";
+    font-size: 50px;
+    display: inline-block;
+    content: '\f104';
+    color: #696969;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+    line-height: 1;
+}
+
+#geserkanan:before{
+    font-family: "FontAwesome";
+    font-size: 50px;
+    display: inline-block;
+    content: '\f105';
+    color: #696969;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+    line-height: 1;
+}
+
+.tag-company {
+    display: block;
+    background: orange;
+    width: 78px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
 }

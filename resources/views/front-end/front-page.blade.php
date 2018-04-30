@@ -151,12 +151,73 @@
 <div class="container">
   <div class="row">
     <div class="col-md-2">
-      <h2>Berita</h2>
-      <h2>Terbaru</h2>
+      <h2 class="up-head-bold">Seputar</h2>
+      <h2 class="down-head-bold">BLST</h2>
     </div>
-    <div class="col-md-10">
 
-    </div>
+      <div class="col-md-10 column berita-terakhir-content no-padding">
+          <!-- Content Slider -->
+          <div class="flex-viewport">
+            <ul class="slides-berita" id="slide-beritanya">
+              <li class="li-slide-berita" >
+                <div class="berita-list" style="position:relative">
+                  <div class="category-company-wrapper">
+                    <span class="tag-company">BLST</span>
+                    <span class="date-berita">18 Maret 2018</span>
+                  </div>
+                  <a href="#">
+                    UI MENGGANDENG ADARO SEBAGAI SPONSOR UTAMA UIHM
+                  </a>
+                </div>
+              </li>
+              <li class="li-slide-berita">
+                <div class="berita-list">
+                  <span class="date-berita">32 Juni 2018</span>
+                  <a href="#">
+                    UI MEMBUAT GEBRAKAN BARU MELALUI UIHM YEAS
+                  </a>
+                </div>
+              </li>
+              <li class="li-slide-berita">
+                <div class="berita-list">
+                  <span class="date-berita">32 Juni 2018</span>
+                  <a href="#">
+                    UI MEMBUAT GEBRAKAN BARU MELALUI UIHM HOE
+                  </a>
+                </div>
+              </li>
+              <li class="li-slide-berita">
+                <div class="berita-list">
+                  <span class="date-berita">32 Juni 2018</span>
+                  <a href="#">
+                    UI MEMBUAT GEBRAKAN BARU MELALUI UIHM HAU
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- navigasi -->
+          <ul class="flex-direction-nav">
+            <li class="flex-nav-next">
+              <span style="cursor:pointer" id="geserkanan" onclick="geserKanan()" class="flex-prev " href=""></span>
+            </li>
+            <li class="flex-nav-prev">
+              <span style="cursor:pointer; display:none" id="geserkiri" class="flex-next" onclick="geserKiri()" ></span>
+            </li>
+          </ul>
+          <script type="text/javascript">
+            function geserKanan() {
+              $('#slide-beritanya').css('transform','translate3d(-633px,0px,0px)');
+              $('#geserkanan').hide();
+              $('#geserkiri').show();
+            }
+            function geserKiri() {
+              $('#slide-beritanya').css('transform','translate3d(0px,0px,0px)');
+              $('#geserkanan').show();
+              $('#geserkiri').hide();
+            }
+          </script>
+        </div>
   </div>
 </div>
 
