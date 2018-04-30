@@ -224,11 +224,48 @@
   <div class="row">
     <div class="col-md-12">
       <ul class="nav nav-pills nav-fill tab-atas-short-desc">
-        <li class="nav-link title-company">PT Bogor Life Science <br> and Technology</li>
-        <li><a class="nav-link tab-atas aktif" href="#">Tentang Kami</a></li>
-        <li><a class="nav-link tab-atas" href="#">Portfolio Bisnis</a></li>
-        <li><a class="nav-link tab-atas" href="#">Kepemilikan Saham</a></li>
+        <li class="nav-link title-company">PT BLST</li>
+        <li><a id="tentang-kami-tab" data-toggle="pill" href="#tentang-kami" role="tab" aria-controls="home" aria-selected="true" class="nav-link tab-atas active" href="#">Tentang Kami</a></li>
+        <li><a id="portfolio-bisnis-tab" data-toggle="pill" href="#portfolio-bisnis" role="tab" aria-controls="home" aria-selected="true" class="nav-link tab-atas" href="#">Portfolio Bisnis</a></li>
+        <li><a id="kepemilikan-saham-tab" data-toggle="pill" href="#kepemilikan-saham" role="tab" aria-controls="home" aria-selected="true" class="nav-link tab-atas" href="#">Kepemilikan Saham</a></li>
       </ul>
+
+      <div class="tab-content tab-wrapper-tentang-kami" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="tentang-kami" role="tabpanel" aria-labelledby="pills-home-tab">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                {{-- KOLOM 1 --}}
+                <div class="tagline-company">
+                  AGGRESSIVE <br>
+                  NEW <br>
+                  GROWTH
+                </div>
+
+              </div>
+              <div class="col-md-6 deskripsi-features">
+                {{-- KOLOM 2 --}}
+                <p>PT Bogor Life Science and Technology (BLST) didirikan
+                  tahun 2003 merupakan satuan usaha komersial dibawah IPB yang didirikan dengan
+                  tujuan untuk mengelola aset IPB
+                  TAP 18/MWA–IPB/2003. BLST melaksanakan usaha
+                  berdasarkan kepakaran
+                  yang berhubungan dengan
+                  Ilmu alam dan teknologi
+                  di bidang produksi, jasa, dan konsultan
+                </p>
+                <a href="#" class="btn btn-selengkapnya">Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="portfolio-bisnis" role="tabpanel" aria-labelledby="pills-profile-tab"><h3>Portfolio Bisnis</h3></div>
+
+        <div class="tab-pane fade" id="kepemilikan-saham" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+      </div>
+
+
     </div>
   </div>
 </div>

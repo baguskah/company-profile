@@ -706,8 +706,40 @@ a.nav-link.tab-atas {
     text-transform: uppercase;
 }
 
-a.nav-link.tab-atas.aktif{
-    background: orange;
-    color:white;
-    font-weight: bolder;
+
+.tab-atas-short-desc .active {
+  background-color: orange !important;
+  color:white;
+  font-weight: bolder;
+}
+
+.tab-wrapper-tentang-kami .active {
+    background: whitesmoke;
+}
+
+.tagline-company {
+  font-family: "lato-light", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 41px;
+  color: #cecece;
+  text-transform: uppercase;
+  line-height: 42px;
+  top: 15px;
+  padding: 14px;
+}
+
+.deskripsi-features{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-weight: lighter;
+}
+
+.btn-selengkapnya {
+    background: grey;
+    color: white;
+    border-radius: 0px;
+}
+
+.btn-selengkapnya:hover {
+    color: orange;    
 }
