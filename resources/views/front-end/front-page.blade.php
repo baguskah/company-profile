@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    {{-- <meta name="viewport" content="width=device-width, initial-scale=1"> --}}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PT BLST</title>
 
     <!-- Bootstrap -->
@@ -26,10 +26,10 @@
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
       </div>
-      <div class="slider-wrapper">
-        <div class="mySlides">
-          <img src="{{asset('images/slider/hero2.jpg')}}" style="width:100%">
-          <div class="container">
+      <div class="slider-wrapper slider-desktop">
+        <div class="mySlides" style="background:url({{asset('images/slider/hero2.jpg')}});background-size: auto 100%; background-position: center;">
+          {{-- <img class="img img-responsive" src="{{asset('images/slider/hero2.jpg')}}" style="width:100%"> --}}
+          <div class="container-fluid">
             <div class="text">
               <div class="">
                 <span class="mean_cap">Menuju Sciencepark No 1</span>
@@ -39,25 +39,27 @@
             </div>
           </div>
         </div>
+
       </div>
+
     </div>
 
     {{-- Bagian Atas --}}
-<div class="container-fluid" id="slider-wrapper" style="height:-webkit-fill-available;">
+<div class="container-fluid" id="slider-wrapper" style="">
       <div class="row">
-        <div class="container">
+        <div class="container-fluid">
           <div class="col-md-12 header">
               <div class="row">
                 {{-- Logo --}}
-                <div class="col-md-4">
+                <div class="col-md-4 col-xs-6">
                   <div id="logo-perusahaan-warper">
                     <img id="logo"class="img img-responsive" src="{{asset('images/logo-company-white.png')}}" alt="">
                   </div>
                 </div>
 
                 {{-- Menu Atas --}}
-                <div class="col-md-4">
-                  <div class="nav navbar hide-tablet" id="navbarNav">
+                <div class="col-md-4 hide-tablet">
+                  <div class="nav navbar" id="navbarNav">
                     <ul class="">
                       <li>
                         <a href="#">Home <span class="sr-only">(current)</span></a>
@@ -76,7 +78,7 @@
                 </div>
 
                 {{-- Search --}}
-                <div class="col-md-4">
+                <div class="col-md-4 col-xs-6" id="menu-kanan">
                   {{-- <div class="right-header-panel"> --}}
                   <div class="row">
                     <div class="col-md-6 push-right">

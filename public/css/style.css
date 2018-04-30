@@ -100,18 +100,46 @@
 
 }
 
+/* Large Tablet Landscape */
+@media only screen and (max-width: 1024px) {
+  .hide-tablet{
+    display: none;
+  }
+}
 
+/* Phone + Small Tablet Landscape */
+@media only screen and (max-width: 800px) {
+
+}
+
+/* Large Tablet Landscape */
 @media only screen and (max-width: 768px) {
-.hide-tablet{
-  display: none;
+
 }
+
+/* Small Tablet Portait */
+@media only screen and (max-width: 600px) {
+
 }
+
+/* Phone Landscape and Portait */
+@media only screen and (max-width: 480px) {
+
+}
+
+/* Phone Portait */
+@media only screen and (max-width: 320px) {
+
+}
+
+
 
 /* Slider */
 .slider-wrapper {
     position:  absolute;
     height: 517px;
     overflow:  hidden;
+    width: 100%;
 }
 
 #slider-navigation {
@@ -124,6 +152,7 @@
 
 .mySlides {
     display: none;
+    height: 100%;
 }
 
 .fade {
@@ -151,6 +180,7 @@
   bottom: 150px;
   width: 60%;
   text-align: left;
+  margin-left: 7%;
 }
 
 /* Caption */
@@ -160,6 +190,7 @@
   color: #fff;
   text-transform: uppercase;
   display: block;
+  line-height: 90%;
 }
 
 .mySlides .text .sub_cap{
@@ -169,6 +200,7 @@
   color: #fff;
   text-transform: uppercase;
   display: block;
+  line-height: 90%;
 }
 
 /* The dots/bullets/indicators */
@@ -195,6 +227,14 @@
 
 #logo{
   max-width: 200px;
+}
+
+#menu-kanan {
+    width: auto;    
+    height: auto;
+    position: absolute;
+    right: 15px;
+    top: 15px;
 }
 
 #navbarNav{
