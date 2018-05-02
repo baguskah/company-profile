@@ -756,8 +756,17 @@ a.nav-link.tab-atas {
   width: 580px;
 }
 
+.column-2{
+  -moz-column-count: 2;
+-moz-column-gap: 20px;
+-webkit-column-count: 2;
+-webkit-column-gap: 20px;
+column-count: 2;
+column-gap: 20px;
+}
+
 .list-perusahaan{
-  margin-top: 139px;
+  margin-top: 100px;
   margin-bottom: 40px;
 }
 
@@ -766,7 +775,7 @@ a.nav-link.tab-atas {
  }
 .list-perusahaan li {
    counter-increment: item;
-   margin-bottom: 5px;
+   margin-bottom: 18px;
  }
 .list-perusahaan li:before {
    margin-right: 10px;

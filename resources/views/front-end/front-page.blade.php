@@ -265,13 +265,14 @@
         <div class="tab-pane fade " id="portfolio-bisnis" role="tabpanel" aria-labelledby="pills-profile-tab">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-md-3">
-                <div class="tagline-company">
-                  SCIENCE BASED
+
+              <div class="col-md-6">
+                <div class="tagline-company" style="font-size:27px">
+                  SCIENCE BASE
                 </div>
-                <div class="list-perusahaan">
+                <div class="list-perusahaan column-2">
                   <ol>
-                    @for ($i = 1; $i < 8; $i++)
+                    {{-- @for ($i = 0; $i < 8; $i++) --}}
                       <li>
                         <div style="margin:0px">
                           <a href="#" target="_blank">
@@ -282,10 +283,173 @@
                           <i>certified training</i>
                         </div>
                       </li>
-                    @endfor
+                      <li>
+                        <div style="margin:0px">
+                          <a href="#" target="_blank">
+                            IPB Shigeta
+                          </a>
+                        </div>
+                        <div class="">
+                          <i>produksi vaksin flu burung</i>
+                        </div>
+                      </li>
+                      <li>
+                        <div style="margin:0px">
+                          <a href="#" target="_blank">
+                            FITS Mandiri
+                          </a>
+                        </div>
+                        <div class="">
+                          <i>functional food</i>
+                        </div>
+                      </li>
+                      <li>
+                        <div style="margin:0px">
+                          <a href="#" target="_blank">
+                            Biomedical Technology Indonesia
+                          </a>
+                        </div>
+                        <div class="">
+                          <i>material biologis vaksin polio</i>
+                        </div>
+                      </li>
+                      <li>
+                        <div style="margin:0px">
+                          <a href="#" target="_blank">
+                            Serambi Botani Indonesia
+                          </a>
+                        </div>
+                        <div class="">
+                          <i>ritel produk sehat alami</i>
+                        </div>
+                      </li>
+                      <li>
+                        <div style="margin:0px">
+                          <a href="#" target="_blank">
+                            Botani Seed Indonesia
+                          </a>
+                        </div>
+                        <div class="">
+                          <i>produksi benih</i>
+                        </div>
+                      </li>
+                      <li>
+                        <div style="margin:0px">
+                          <a href="#" target="_blank">
+                            Agri Lestari Indonesia
+                          </a>
+                        </div>
+                        <div class="">
+                          <i>feed additives</i>
+                        </div>
+                      </li>
+                      <li>
+                        <div style="margin:0px">
+                          <a href="#" target="_blank">
+                            Prima Kelola IPB
+                          </a>
+                        </div>
+                        <div class="">
+                          <i>konsultan</i>
+                        </div>
+                      </li>
+                    {{-- @endfor --}}
                   </ol>
                 </div>
               </div>
+              <div class="col-md-3">
+                <div class="tagline-company" style="font-size:27px">
+                  SERVICE BASE
+                </div>
+                <div class="list-perusahaan">
+                  <ol>
+                    {{-- @for ($i = 0; $i < 4; $i++) --}}
+                      <li>
+                        <div style="margin:0px">
+                          <a href="#" target="_blank">
+                            IPB Science Park
+                          </a>
+                        </div>
+                        <div class="">
+                          <i>kawasan bisnis komersial berbasis sains</i>
+                        </div>
+                      </li>
+                      <li>
+                        <div style="margin:0px">
+                          <a href="#" target="_blank">
+                            IPB Convention Center and Hotel
+                          </a>
+                        </div>
+                        <div class="">
+                          <i>meeting, conference, exibition</i>
+                        </div>
+                      </li>
+                      <li>
+                        <div style="margin:0px">
+                          <a href="#" target="_blank">
+                            Penerbit IPB Press
+                          </a>
+                        </div>
+                        <div class="">
+                          <i>penerbitan dan percetakan</i>
+                        </div>
+                      </li>
+                      <li>
+                        <div style="margin:0px">
+                          <a href="#" target="_blank">
+                            BPRS Bina Rahmah
+                          </a>
+                        </div>
+                        <div class="">
+                          <i>pembiayaan syariah</i>
+                        </div>
+                      </li>
+                    {{-- @endfor --}}
+                  </ol>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="tagline-company" style="font-size:27px">
+                  ASSET BASE
+                </div>
+                <div class="list-perusahaan">
+                  <ol>
+                    {{-- @for ($i = 0; $i < 4; $i++) --}}
+                      <li>
+                        <div style="margin:0px">
+                          <a href="#" target="_blank">
+                            Bogor Anggana Cendekia
+                          </a>
+                        </div>
+                        <div class="">
+                          <i>mal botani square</i>
+                        </div>
+                      </li>
+                      <li>
+                        <div style="margin:0px">
+                          <a href="#" target="_blank">
+                            Grahawita Cendekia
+                          </a>
+                        </div>
+                        <div class="">
+                          <i>hotel santika bogor</i>
+                        </div>
+                      </li>
+                      <li>
+                        <div style="margin:0px">
+                          <a href="#" target="_blank">
+                            Plaza Botani
+                          </a>
+                        </div>
+                        <div class="">
+                          <i>pool bus damri</i>
+                        </div>
+                      </li>
+                    {{-- @endfor --}}
+                  </ol>
+                </div>
+              </div>
+
             </div>
           </div>
 
