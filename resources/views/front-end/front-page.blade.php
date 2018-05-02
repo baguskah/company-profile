@@ -232,15 +232,17 @@
 
       <div class="tab-content tab-wrapper-tentang-kami" id="pills-tabContent">
         <div class="tab-pane fade show active" id="tentang-kami" role="tabpanel" aria-labelledby="pills-home-tab">
-          <div class="container">
+          <div class="container-fluid">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-6 featured-profile-image">
                 {{-- KOLOM 1 --}}
                 <div class="tagline-company">
                   AGGRESSIVE <br>
                   NEW <br>
                   GROWTH
                 </div>
+
+                <img class="img img-responsive" src="{{asset('images/slider/ipb-rektorat-background.jpg')}}" alt="">
 
               </div>
               <div class="col-md-6 deskripsi-features">
@@ -254,13 +256,40 @@
                   Ilmu alam dan teknologi
                   di bidang produksi, jasa, dan konsultan
                 </p>
-                <a href="#" class="btn btn-selengkapnya">Selengkapnya</a>
+                {{-- <a href="#" class="btn btn-selengkapnya">Selengkapnya</a> --}}
               </div>
             </div>
           </div>
         </div>
 
-        <div class="tab-pane fade" id="portfolio-bisnis" role="tabpanel" aria-labelledby="pills-profile-tab"><h3>Portfolio Bisnis</h3></div>
+        <div class="tab-pane fade " id="portfolio-bisnis" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="tagline-company">
+                  SCIENCE BASED
+                </div>
+                <div class="list-perusahaan">
+                  <ol>
+                    @for ($i = 1; $i < 8; $i++)
+                      <li>
+                        <div style="margin:0px">
+                          <a href="#" target="_blank">
+                            Global Scholarship Services Indonesia
+                          </a>
+                        </div>
+                        <div class="">
+                          <i>certified training</i>
+                        </div>
+                      </li>
+                    @endfor
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
 
         <div class="tab-pane fade" id="kepemilikan-saham" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
       </div>

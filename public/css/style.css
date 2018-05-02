@@ -726,12 +726,16 @@ a.nav-link.tab-atas {
   line-height: 42px;
   top: 15px;
   padding: 14px;
+  position: absolute;
+  left: 32px;
 }
 
 .deskripsi-features{
   padding-top: 60px;
-  padding-bottom: 60px;
-  font-weight: lighter;
+    padding-bottom: 60px;
+    font-weight: lighter;
+    padding-right: 100px;
+    padding-left: 50px;
 }
 
 .btn-selengkapnya {
@@ -741,5 +745,50 @@ a.nav-link.tab-atas {
 }
 
 .btn-selengkapnya:hover {
-    color: orange;    
+    color: orange;
+}
+
+.featured-profile-image{
+  padding: 0px;
+}
+
+.featured-profile-image img{
+  width: 580px;
+}
+
+.list-perusahaan{
+  margin-top: 139px;
+  margin-bottom: 40px;
+}
+
+.list-perusahaan ol {
+   list-style: none;
+ }
+.list-perusahaan li {
+   counter-increment: item;
+   margin-bottom: 5px;
+ }
+.list-perusahaan li:before {
+   margin-right: 10px;
+   content: counter(item);
+   background: orange;
+   /* border-radius: 100%; */
+   float:left;
+   color: white;
+   width: 1.2em;
+   text-align: center;
+   display: inline-block;
+ }
+
+ .list-perusahaan a {
+    color: grey;
+    text-transform:  uppercase;
+    font-weight: bolder;
+}
+
+.list-perusahaan i {
+  color: grey;
+position: relative;
+font-size: 9pt;
+display: block;
 }
