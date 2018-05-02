@@ -58,7 +58,7 @@
                 </div>
 
                 {{-- Menu Atas --}}
-                <div class="col-md-4 hide-tablet">
+                <div class="col-md-4 hide-tablet" style="display:none">
                   <div class="nav navbar" id="navbarNav">
                     <ul class="">
                       <li>
@@ -87,8 +87,8 @@
                     <div class="col-md-6">
                       <div id="language-switcher-warper">
                         <select class="select-lg-transparent" name="">
-                          <option value="">EN</option>
                           <option value="">ID</option>
+                          <option value="">EN</option>
                         </select>
                       </div>
                       <div class="search-warper">
@@ -100,7 +100,9 @@
                     <div class="">
                       <div class="tombol-menu">
                         <span class="menuspan">Menu</span>
-                        <a href="#menu" onclick="openNav()" class="icMenu">
+                        <a href="#menu"
+                        {{-- onclick="openNav()"  --}}
+                        class="icMenu">
                           <span></span>
                           <span></span>
                           <span></span>
@@ -148,7 +150,7 @@
       </script>
 </div>
 
-<div class="container">
+<div class="container" style="display:none">
   <div class="row">
     <div class="col-md-2">
       <h2 class="up-head-bold">Seputar</h2>
@@ -227,7 +229,7 @@
         <li class="nav-link title-company">PT BLST</li>
         <li><a id="tentang-kami-tab" data-toggle="pill" href="#tentang-kami" role="tab" aria-controls="home" aria-selected="true" class="nav-link tab-atas active" href="#">Tentang Kami</a></li>
         <li><a id="portfolio-bisnis-tab" data-toggle="pill" href="#portfolio-bisnis" role="tab" aria-controls="home" aria-selected="true" class="nav-link tab-atas" href="#">Portfolio Bisnis</a></li>
-        <li><a id="kepemilikan-saham-tab" data-toggle="pill" href="#kepemilikan-saham" role="tab" aria-controls="home" aria-selected="true" class="nav-link tab-atas" href="#">Kepemilikan Saham</a></li>
+        {{-- <li><a id="kepemilikan-saham-tab" data-toggle="pill" href="#kepemilikan-saham" role="tab" aria-controls="home" aria-selected="true" class="nav-link tab-atas" href="#">Kepemilikan Saham</a></li> --}}
       </ul>
 
       <div class="tab-content tab-wrapper-tentang-kami" id="pills-tabContent">
