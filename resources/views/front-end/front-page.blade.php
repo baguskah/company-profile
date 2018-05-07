@@ -342,7 +342,15 @@
                       </li>
                       <li>
                         <div style="margin:0px">
-                          <a href="#" target="_blank">
+                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip" title=""
+                          data-original-title="
+                          Merupakan sub unit yang memproduksi material biologis dari Fetus Macacca Fascicularis (Monyet Ekor Panjang)
+                          Untuk vaksin polio yang di absorb oleh Biofarma.
+                          Selain Vaksin Polio, Juga diproduksi antibodi untuk
+                          Avian Influenza (AI)/Flu Burung. Aktivitas penelitian dan pengembangan produk sepenuhnya dilaksanakan oleh pusat studi satwa Primata.
+                          Sedangkan penelitian dan pengembangan antibodi yg dilaksanakan di laboratorium IPB Bioscience Industry BLS dan Bagian mikrobiologi Medik Fakultas Kedokteran Hewan, IPB
+
+                          ">
                             Biomedical Technology Indonesia
                           </a>
                         </div>
@@ -538,6 +546,8 @@
                           <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip" title=""
                           data-original-title="
                           Hotel Santika Bogor Merupakan salah satu hunian terbaik di Kota Bogor karena terletak di lokasi yang sangat strategis.
+                          Masyarakat dapat menikmati fasiitas hunian kamar dalam lima unit kelas.
+                          Diantara Hunian kamar tersebut yaitu 109 unit superior, 26 unit Deluxe, 10 unit Executive, 7 unit suite, dan 1 unit Presidential Suite
 
                           ">
                             Grahawita Cendekia
@@ -549,7 +559,11 @@
                       </li>
                       <li>
                         <div style="margin:0px">
-                          <a href="#" target="_blank">
+                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip" title=""
+                          data-original-title="
+                          Plaza Botanical terletak melayani jasa perparkiran di kompleks
+                          Baranang Siang Bogor baik untuk penggunaan fasilitas shuttle Damri Bandara Soekarno Hatta IPB Convention Hotel, maupun mau Botani Square
+                          ">
                             Plaza Botani
                           </a>
                         </div>
