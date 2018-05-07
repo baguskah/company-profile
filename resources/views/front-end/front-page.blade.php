@@ -229,7 +229,7 @@
         <li class="nav-link title-company">PT BLST</li>
         <li><a id="tentang-kami-tab" data-toggle="pill" href="#tentang-kami" role="tab" aria-controls="home" aria-selected="true" class="nav-link tab-atas active" href="#">Tentang Kami</a></li>
         <li><a id="portfolio-bisnis-tab" data-toggle="pill" href="#portfolio-bisnis" role="tab" aria-controls="home" aria-selected="true" class="nav-link tab-atas" href="#">Portfolio Bisnis</a></li>
-        {{-- <li><a id="kepemilikan-saham-tab" data-toggle="pill" href="#kepemilikan-saham" role="tab" aria-controls="home" aria-selected="true" class="nav-link tab-atas" href="#">Kepemilikan Saham</a></li> --}}
+        <li><a id="kepemilikan-saham-tab" data-toggle="pill" href="#kepemilikan-saham" role="tab" aria-controls="home" aria-selected="true" class="nav-link tab-atas" href="#">Kepemilikan Saham</a></li>
       </ul>
 
       <div class="tab-content tab-wrapper-tentang-kami" id="pills-tabContent">
@@ -457,7 +457,54 @@
 
         </div>
 
-        <div class="tab-pane fade" id="kepemilikan-saham" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+        <div class="tab-pane fade" id="kepemilikan-saham" role="tabpanel" aria-labelledby="pills-contact-tab">
+          <div class="container">
+            <div class="row">
+            <div class="col-sm-3">
+              <div class="tagline-company">
+                SAHAM <br>
+                BLST
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="box-shareholder">
+                <div class="angka-shareholder">
+                  <h4>24.997</h4>
+                  <p>Shares</p>
+                </div>
+                <div class="logo-shareholder">
+                  <img src="{{asset('images/logo/logo-ipb.png')}}" alt="">
+                </div>
+                <div class="title-shareholder">
+                  <span>Bogor Agricultural University</span>
+                </div>
+                <div class="angka-shareholder-wrapper">
+                  99.988 %
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="box-shareholder">
+                <div class="angka-shareholder">
+                  <h4>3</h4>
+                  <p>Shares</p>
+                </div>
+                <div class="logo-shareholder">
+                  <img src="{{asset('images/logo/logo-cooperative-ipb.png')}}" alt="">
+                </div>
+                <div class="title-shareholder">
+                  <span>COOPERATIVE OF IPB EMPLOYEES</span>
+                </div>
+                <div class="angka-shareholder-wrapper">
+                  0.012 %
+                </div>
+              </div>
+            </div>
+
+          </div>
+          </div>
+
+        </div>
       </div>
 
 

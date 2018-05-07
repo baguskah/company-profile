@@ -801,3 +801,53 @@ position: relative;
 font-size: 9pt;
 display: block;
 }
+
+.box-shareholder {
+  width: 260px;
+  height: 250px;
+  background: #e2e2e2;
+  color: #484848;
+  border-radius: 39px;
+  margin: auto;
+  margin-top: 18px;
+  margin-bottom: 20px;
+  position: relative;
+  padding: 20px;
+}
+
+.logo-shareholder {
+    position: absolute;
+    right: 14px;
+    top: 14px;
+}
+
+.logo-shareholder img {
+    max-width:80px;
+}
+
+.angka-shareholder {
+    line-height:  0px;
+}
+
+.angka-shareholder h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30pt;
+}
+
+.title-shareholder {
+    margin-top: 31px;
+    width: 168px;
+    text-transform:  uppercase;
+}
+
+.angka-shareholder-wrapper {
+    width: 131px;
+    margin:  auto;
+    background: orange;
+    text-align:  center;
+    font-size:  16pt;
+    padding:  6px;
+    border-radius:  10px;
+    margin-top: 9px;
+}
