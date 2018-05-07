@@ -851,3 +851,26 @@ display: block;
     border-radius:  10px;
     margin-top: 9px;
 }
+
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.content-box {
+    position:  relative;
+    height: 350px;
+    background:  yellow;
+    padding: 40px;
+}
+
+.content-main-home {
+    margin-top: 40px;
+}
+
+.corporate-video h2{
+  color:white;
+  text-transform:  uppercase;
+  font-family: "lato-black", Helvetica, Arial, sans-serif;
+}

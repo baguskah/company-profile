@@ -222,7 +222,7 @@
 </div>
 
 {{-- Start About BLST section --}}
-<div class="container-fluid short-desc-wrapper">
+<div class="container-fluid short-desc-wrapper home-content-header">
   <div class="row">
     <div class="col-md-12">
       <ul class="nav nav-pills nav-fill tab-atas-short-desc">
@@ -252,11 +252,11 @@
                 <p>PT Bogor Life Science and Technology (BLST) didirikan
                   tahun 2003 merupakan satuan usaha komersial dibawah IPB yang didirikan dengan
                   tujuan untuk mengelola aset IPB
-                  TAP 18/MWA–IPB/2003. BLST melaksanakan usaha
+                  (TAP 18/MWA–IPB/2003). BLST melaksanakan usaha
                   berdasarkan kepakaran
                   yang berhubungan dengan
                   Ilmu alam dan teknologi
-                  di bidang produksi, jasa, dan konsultan
+                  di bidang produksi, jasa, dan konsultan.
                 </p>
                 {{-- <a href="#" class="btn btn-selengkapnya">Selengkapnya</a> --}}
               </div>
@@ -277,7 +277,7 @@
                     {{-- @for ($i = 0; $i < 8; $i++) --}}
                       <li>
                         <div style="margin:0px">
-                          <a href="#" target="_blank">
+                          <a href="http://ipbtraining.com" target="_blank">
                             Global Scholarship Services Indonesia
                           </a>
                         </div>
@@ -297,7 +297,7 @@
                       </li>
                       <li>
                         <div style="margin:0px">
-                          <a href="#" target="_blank">
+                          <a href="https://www.tokopedia.com/fitsmandir" target="_blank">
                             FITS Mandiri
                           </a>
                         </div>
@@ -317,7 +317,7 @@
                       </li>
                       <li>
                         <div style="margin:0px">
-                          <a href="#" target="_blank">
+                          <a href="http://www.serambibotani.com/" target="_blank">
                             Serambi Botani Indonesia
                           </a>
                         </div>
@@ -368,7 +368,7 @@
                     {{-- @for ($i = 0; $i < 4; $i++) --}}
                       <li>
                         <div style="margin:0px">
-                          <a href="#" target="_blank">
+                          <a href="http://www.ipbsciencepark.com/" target="_blank">
                             IPB Science Park
                           </a>
                         </div>
@@ -378,7 +378,7 @@
                       </li>
                       <li>
                         <div style="margin:0px">
-                          <a href="#" target="_blank">
+                          <a href="https://www.ipbconventionhotel.com/" target="_blank">
                             IPB Convention Center and Hotel
                           </a>
                         </div>
@@ -512,6 +512,19 @@
   </div>
 </div>
 
+<div class="container-fluid content-main-home">
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-xs-12">
+      <div class="row">
+        <div class="col-md-4 nopadding">
+          <div class="content-box corporate-video" style="background:url({{asset('images/background/corporate-video-background.jpg')}}); color:white">
+            <h2>Corporate <br>Video</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
