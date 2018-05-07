@@ -907,3 +907,7 @@ display: block;
   background-color: orange;
   border-radius: 0.25rem;
 }
+
+.tooltip.show {
+  opacity: 1;
+}

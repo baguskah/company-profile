@@ -277,14 +277,14 @@
                     {{-- @for ($i = 0; $i < 8; $i++) --}}
                       <li>
                         <div style="margin:0px">
-                          <a href="http://ipbtraining.com" target="_blank" data-toggle="tooltip" class="red-tooltip" title=""
+                          <a href="http://ipbtraining.com" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                           data-original-title="
                           PT Global Scholarship Services Indonesia (GSSI),
                           berdiri pada tanggal 12 Maret 2009 dengan maksud dan
                           tujuan menjalankan kegiatan usaha dalam bidang jasa Pendidikan.
                           pada akhir Desember 2014, sebanyak 70% kepemilikan
                           saham dihibahkan kepada PT BLST disertai perubahan pengurusan
-
+                          <br><br>
                           Saat ini GSSI memiliki aktivitas utama yakni menyalurkan
                           kepakaran IPB kepada masyarakat luas melalui penyelenggaraan
                           training-training berbasis applied llife sciene dengan
@@ -300,12 +300,12 @@
                       </li>
                       <li>
                         <div style="margin:0px">
-                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip" title=""
+                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                           data-original-title="
                           Berdirinya PT. IPB Shigeta pada tahun 2004 merupakan
                           inisiasi dan upaya nyata dari FKH IPB untuk menciptakan Satuan Usaha Komersial (SUK)
                           sebagai revenue generating unit bagi FKH IPB khususnya dan IPB pada umumnya.
-
+                          <br><br>
                           Tujuan pendirian PT IPB Shigeta antara lain untuk
                           membantu pemerintah Indonesia dalam upaya penanggulangan penyakit
                           Avian Influenza (AI) pada unggas melalui produksi vaksin inaktif AI H5N1
@@ -321,12 +321,13 @@
                       </li>
                       <li>
                         <div style="margin:0px">
-                          <a href="https://www.tokopedia.com/fitsmandir" target="_blank" data-toggle="tooltip" class="red-tooltip" title=""
+                          <a href="https://www.tokopedia.com/fitsmandir" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                           data-original-title="
                           Bermula dari sebuah program bernama Food Industrial Teaching System (FITS)
                           yang dibentuk oleh Jurusan Teknologi Pangan IPB untuk
-                          membantu para mahasiswanya memahami lebih dalam tentang dunia industri pangan di lingkungan kampus
-                          , PT FITS Mandiri pun kemudian didirikan secara resmi
+                          membantu para mahasiswanya memahami lebih dalam tentang dunia industri pangan di lingkungan kampus.
+                          <br><br>
+                          PT FITS Mandiri pun kemudian didirikan secara resmi
                           pada 19 Mei 2000 demi mendukung kegiatan pengembangan dan
                           produksi prpoduk pangan secara komersial pada skala yang lebih besar.
                           Kemudian pada tahun 2015 aktivitas produksi dan manajemen
@@ -342,12 +343,13 @@
                       </li>
                       <li>
                         <div style="margin:0px">
-                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip" title=""
+                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                           data-original-title="
                           Merupakan sub unit yang memproduksi material biologis dari Fetus Macacca Fascicularis (Monyet Ekor Panjang)
                           Untuk vaksin polio yang di absorb oleh Biofarma.
                           Selain Vaksin Polio, Juga diproduksi antibodi untuk
                           Avian Influenza (AI)/Flu Burung. Aktivitas penelitian dan pengembangan produk sepenuhnya dilaksanakan oleh pusat studi satwa Primata.
+                          <br><br>
                           Sedangkan penelitian dan pengembangan antibodi yg dilaksanakan di laboratorium IPB Bioscience Industry BLS dan Bagian mikrobiologi Medik Fakultas Kedokteran Hewan, IPB
 
                           ">
@@ -360,7 +362,7 @@
                       </li>
                       <li>
                         <div style="margin:0px">
-                          <a href="http://www.serambibotani.com/" target="_blank" data-toggle="tooltip" class="red-tooltip" title=""
+                          <a href="http://www.serambibotani.com/" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                           data-original-title="
                           Serambi Botani sebagai gerai pelopor yang menyediakan
                           produk-produk lokal berkonsep alami dan sehat bagi masyarakat.
@@ -379,11 +381,11 @@
                       </li>
                       <li>
                         <div style="margin:0px">
-                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip" title=""
+                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                           data-original-title="
                           Botani Seed Indonesia (BOSI) adalah perusahaan yang bergerak dalam sektor perbenihan.
                           Kami berkomitmen menjadi perusahaan yang turut serta mendukung komersialisasi hasil inovasi IPB dalam bidang pertanian.
-
+                          <br><br>
                           BOSI berdiri sejak tahun 2016, dengan fokus kegiataan saat ini adalah produksi dan penjualan benih.
                           ">
                             Botani Seed Indonesia
@@ -395,13 +397,13 @@
                       </li>
                       <li>
                         <div style="margin:0px">
-                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip" title=""
+                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                           data-original-title="
                           PT Agri Lestari Indoneia (ALIN) adalah perusahaan yang bergerak dalam bidang perdagangan
                           hasil pertanian dan kesehatan hewan. ALIN berkomitmen
                           menjadi perusahaan yang turut serta mendukung komersialisasi
                           hasil Inovasi IPB dalam bidang peternakan, kesehatan hewan dan perdagangan
-
+                          <br><br>
                           ALIN beridiri sejak tahun 2016, dengan fokus kegiatan
                           saat ini adalah produksi dan penjalan feed additive ternak perah
                           berbahan dasar alami untuk membantu meningkatkan produktivitas pada ternak ruminansia
@@ -415,7 +417,7 @@
                       </li>
                       <li>
                         <div style="margin:0px">
-                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip" title=""
+                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                           data-original-title="
                           Pada tahun 2015, PT Primakelola Agribisnis Agroindustri
                           berganti nama menjadi PT Prima Kelola IPB yang memiliki
@@ -442,7 +444,7 @@
                     {{-- @for ($i = 0; $i < 4; $i++) --}}
                       <li>
                         <div style="margin:0px">
-                          <a href="http://www.ipbsciencepark.com/" target="_blank" data-toggle="tooltip" class="red-tooltip" title=""
+                          <a href="http://www.ipbsciencepark.com/" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                           data-original-title="
                           IPB Science Park merupakan kawasan untuk mendukung
                           pengembangan dan komersialisasi hasil inovasi produk
@@ -460,7 +462,7 @@
                       </li>
                       <li>
                         <div style="margin:0px">
-                          <a href="https://www.ipbconventionhotel.com/" target="_blank" data-toggle="tooltip" class="red-tooltip" title=""
+                          <a href="https://www.ipbconventionhotel.com/" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                           data-original-title="
                           Salah satu unit bisnis yang dimiliki oleh BLST adalah
                           IPB IICC dan IPB Convention Hotel yang memiliki 34 kamar
@@ -476,7 +478,7 @@
                       </li>
                       <li>
                         <div style="margin:0px">
-                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip" title=""
+                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                           data-original-title="
                           PT IPB Press hadir sejak tahun 2009 sebagai perusahaan
                           penerbitan yang memiliki fokus menyalurkan ilmu dan hasil
@@ -493,7 +495,7 @@
                       </li>
                       <li>
                         <div style="margin:0px">
-                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip" title=""
+                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                           data-original-title="
                           Pada tahun 1996 ICMI Bogor memprakarsai berdirinya Bank Pembiayaan Rakyat Syariah (BPRS)
                           Bina Rahmah untuk menumbuhkan ekonomi masyarakat atas
@@ -522,14 +524,14 @@
                     {{-- @for ($i = 0; $i < 4; $i++) --}}
                       <li>
                         <div style="margin:0px">
-                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip" title=""
+                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                           data-original-title="
                           Botani Square atau Bogor Botanical Square merupakan
                           salah satu pusat perbelanjaan terbesar dan terlengkap
                           di Kota Bogor. Oleh karena itu, tidak mengherankan jika
                           banyak kalangan dari berbagai usia memenuhi sudut mal,
                           baik untuk berbelanja, wisata kuliner, maupun hanya sekedar window shopping
-
+                          <br><br>
                           BLST memgang peran sebagai pemilik saham dnegan proporsi
                           sebesar 20 % Mall yang diresmikan pada tahun 2006 in
                           dikelola oleh PT Bogor Anggana Cendekia yang didirikan sebagai persoroan terbatas
@@ -543,7 +545,7 @@
                       </li>
                       <li>
                         <div style="margin:0px">
-                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip" title=""
+                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                           data-original-title="
                           Hotel Santika Bogor Merupakan salah satu hunian terbaik di Kota Bogor karena terletak di lokasi yang sangat strategis.
                           Masyarakat dapat menikmati fasiitas hunian kamar dalam lima unit kelas.
@@ -559,7 +561,7 @@
                       </li>
                       <li>
                         <div style="margin:0px">
-                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip" title=""
+                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                           data-original-title="
                           Plaza Botanical terletak melayani jasa perparkiran di kompleks
                           Baranang Siang Bogor baik untuk penggunaan fasilitas shuttle Damri Bandara Soekarno Hatta IPB Convention Hotel, maupun mau Botani Square
@@ -691,7 +693,7 @@ function showSlides(n) {
 
 <script>
 $(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip({animation: false});
 });
 </script>
 
