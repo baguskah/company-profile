@@ -936,3 +936,58 @@ display: block;
   position: absolute;
   bottom:63px;
 }
+
+.modal-dialog {
+  min-height: -webkit-calc(100vh - 60px);
+  min-height: -moz-calc(100vh - 60px);
+  min-height: calc(100vh - 60px);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+     -moz-box-orient: vertical;
+     -moz-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: auto;
+}
+@media (max-width: 768px) {
+  .modal-dialog {
+    min-height: -webkit-calc(100vh - 20px);
+    min-height: -moz-calc(100vh - 20px);
+    min-height: calc(100vh - 20px);
+  }
+}
+
+.dirut-quote {
+    text-align: right;
+    width: 47%;
+    font-size: 15pt;
+    color: black;
+    position: absolute;
+    right: 35px;
+}
+
+.dirut-section .name{
+  position: absolute;
+  background:#454545;
+  Color:white;
+  bottom:20px;
+  right: 34px;
+  padding:5px;
+  font-size:9pt;
+  text-align: right;
+}
+
+.dirut-section .name .title{
+  font-size:5pt;
+}

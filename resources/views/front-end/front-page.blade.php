@@ -650,10 +650,25 @@
             </div>
           </div>
         </div>
+        <div class="col-md-4 nopadding">
+          <div class="content-box dirut-section" style="background:url({{asset('images/background/direktur-utama-background.jpg')}}); color:white; background-size: cover;">
+            <div class="dirut-quote">
+              "BLST sebagai holding company Institut Pertanian Bogor (IPB) mengangkat konsep Science Park sebagai inkubator bisnis perusahaan"
+            </div>
+            <div class="dirut-name">
+              <div class="name">
+                Dr Meika Syahbana Rusli
+                <div class="title">Direktur Utama</div>
+              </div>
+
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
+
 
 <div class="modal fade" id="corporate-video" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
   <div class="modal-dialog modal-lg">
