@@ -671,7 +671,9 @@
                 <img style="max-width:200px" src="{{asset('images/background/annual-book.jpg')}}" class="" alt="">
               </div>
             <div class="button-wraper-black">
-              <span href="http://ipbsciencetechnopark.com/blst/asset/profil-pt-blst.pdf" target="_blank" class="btn">Download</span>
+              <a href="http://ipbsciencetechnopark.com/blst/asset/profil-pt-blst.pdf" target="_blank">
+                <span class="btn">Download</span>
+              </a>
             </div>
           </div>
         </div>
