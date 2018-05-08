@@ -869,7 +869,7 @@ display: block;
     margin-top: 40px;
 }
 
-.corporate-video h2{
+.content-box-head{
   color:white;
   text-transform:  uppercase;
   font-family: "lato-black", Helvetica, Arial, sans-serif;
@@ -900,12 +900,13 @@ display: block;
 }
 
 .tooltip-inner {
-  max-width: 400px;
+  max-width: 600px;
   padding: 1.5rem 2.5rem;
   color: black;
   text-align: left;
-  background-color: orange;
+  background-color: #ffd600;
   border-radius: 0.25rem;
+  column-count: 1;
 }
 
 .tooltip.show {
@@ -990,4 +991,33 @@ display: block;
 
 .dirut-section .name .title{
   font-size:5pt;
+}
+
+.title-section {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 15pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    overflow: hidden;
+    color: #777777;
+}
+
+.title-section h3 {
+  font-size: 55pt;
+position: absolute;
+opacity: 0.3;
+font-weight: bold;
+top: -5px;
+left: 39px;
+line-height: 0.8;
+}
+
+.download-front-section{
+  background:orange;
+  box-shadow: inset 52px 0 95px -20px #d26710;
+}
+
+.button-wraper-black span:hover{
+  background:#494949;
 }
