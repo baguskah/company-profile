@@ -645,9 +645,30 @@
         <div class="col-md-4 nopadding">
           <div class="content-box corporate-video" style="background:url({{asset('images/background/corporate-video-background.jpg')}}); color:white">
             <h2>Corporate <br>Video</h2>
+            <div class="button-wraper">
+              <span href="" data-toggle="modal" data-target="#corporate-video" class="btn">Play Video</span>
+            </div>
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="corporate-video" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content" style="background-color !important:none;border:none !important">
+
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe id="video-company" class="embed-responsive-item" src="https://www.youtube.com/embed/wu9C6MFTRg4?rel=0&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
@@ -657,6 +678,15 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+
+{{-- Stop Video --}}
+
+<script type="text/javascript">
+$("#corporate-video").on('hidden.bs.modal', function (e) {
+       $("#corporate-video iframe").attr("src", $("#corporate-video iframe").attr("src"));
+   });
+</script>
 
 {{-- script slider --}}
 <script type="text/javascript">

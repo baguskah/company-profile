@@ -155,7 +155,7 @@
     height: 100%;
 }
 
-.fade {
+.fade-slider {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
@@ -910,4 +910,29 @@ display: block;
 
 .tooltip.show {
   opacity: 1;
+}
+
+.content-main-home span{
+  font-size: 1.1em;
+    color: #fff;
+    display: inline-block;
+    font-family: "Roboto",sans-serif;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: solid 2px #fff;
+    width: 200px;
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.content-main-home span:hover{
+  color: white;
+  background: orange;
+  border: solid 0px #414141;
+}
+
+.corporate-video > .button-wraper{
+  position: absolute;
+  bottom:63px;
 }
