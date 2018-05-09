@@ -848,6 +848,7 @@
       <div class="tagline-company" style="font-size:27px">
         SCIENCE BASE
       </div>
+
       <div class="list-perusahaan column-2">
         <ol>
           {{-- @for ($i = 0; $i < 8; $i++) --}}
@@ -855,6 +856,7 @@
               <div style="margin:0px">
                 <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                 data-original-title="
+                <img src='{{asset('images/hoverimage/agri-lestari-indonesia.jpg')}}' alt='' width='510px'><br><br>
                 PT Agri Lestari Indoneia (ALIN) adalah perusahaan yang bergerak dalam bidang perdagangan
                 hasil pertanian dan kesehatan hewan. ALIN berkomitmen
                 menjadi perusahaan yang turut serta mendukung komersialisasi
@@ -873,8 +875,10 @@
             </li>
             <li>
               <div style="margin:0px">
-                <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
+                <a href="https://www.youtube.com/watch?v=KJS4tj-dzxU" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                 data-original-title="
+                <img src='{{asset('images/hoverimage/biomedical-technology.jpg')}}' alt='' width='510px'><br><br>
+
                 Merupakan sub unit yang memproduksi material biologis dari Fetus Macacca Fascicularis (Monyet Ekor Panjang)
                 Untuk vaksin polio yang di absorb oleh Biofarma.
                 Selain Vaksin Polio, Juga diproduksi antibodi untuk
@@ -894,6 +898,8 @@
               <div style="margin:0px">
                 <a href="https://web.facebook.com/Botaniseed/" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                 data-original-title="
+                <img src='{{asset('images/hoverimage/botani-seed.jpg')}}' alt='' width='510px'><br><br>
+
                 Botani Seed Indonesia (BOSI) adalah perusahaan yang bergerak dalam sektor perbenihan.
                 Kami berkomitmen menjadi perusahaan yang turut serta mendukung komersialisasi hasil inovasi IPB dalam bidang pertanian.
                 <br><br>
@@ -910,6 +916,9 @@
               <div style="margin:0px">
                 <a href="https://web.facebook.com/fitsyourlifebetter.1/" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                 data-original-title="
+                <img src='{{asset('images/hoverimage/fits-mandiri.jpg')}}' alt='' width='510px'><br><br>
+
+
                 Bermula dari sebuah program bernama Food Industrial Teaching System (FITS)
                 yang dibentuk oleh Jurusan Teknologi Pangan IPB untuk
                 membantu para mahasiswanya memahami lebih dalam tentang dunia industri pangan di lingkungan kampus.
@@ -933,6 +942,9 @@
               <div style="margin:0px">
                 <a href="http://ipbtraining.com" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                 data-original-title="
+                <img src='{{asset('images/hoverimage/ipb-training.jpg')}}' alt='' width='510px'><br><br>
+
+
                 PT Global Scholarship Services Indonesia (GSSI),
                 berdiri pada tanggal 12 Maret 2009 dengan maksud dan
                 tujuan menjalankan kegiatan usaha dalam bidang jasa Pendidikan.
@@ -956,6 +968,9 @@
               <div style="margin:0px">
                 <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                 data-original-title="
+                <img src='{{asset('images/hoverimage/ipb-shigeta.jpg')}}' alt='' width='510px'><br><br>
+
+
                 Berdirinya PT. IPB Shigeta pada tahun 2004 merupakan
                 inisiasi dan upaya nyata dari FKH IPB untuk menciptakan Satuan Usaha Komersial (SUK)
                 sebagai revenue generating unit bagi FKH IPB khususnya dan IPB pada umumnya.
@@ -978,6 +993,9 @@
               <div style="margin:0px">
                 <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                 data-original-title="
+                <img src='{{asset('images/hoverimage/prima-kelola.jpg')}}' alt='' width='510px'><br><br>
+
+
                 Pada tahun 2015, PT Primakelola Agribisnis Agroindustri
                 berganti nama menjadi PT Prima Kelola IPB yang memiliki
                 program kegiatan seperti pelatihan, konsultasi, penelitian terapan,
@@ -995,6 +1013,9 @@
               <div style="margin:0px">
                 <a href="http://www.serambibotani.com/" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                 data-original-title="
+                <img src='{{asset('images/hoverimage/serambi-botani.jpg')}}' alt='' width='510px'><br><br>
+
+
                 Serambi Botani sebagai gerai pelopor yang menyediakan
                 produk-produk lokal berkonsep alami dan sehat bagi masyarakat.
                 Didirikan sebagai salah satu unit bisnis PT BLST pada
@@ -1024,8 +1045,11 @@
           {{-- @for ($i = 0; $i < 4; $i++) --}}
             <li>
               <div style="margin:0px">
-                <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
+                <a href="https://binarahmah.com/" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                 data-original-title="
+                <img src='{{asset('images/hoverimage/bprs-binarahmah.jpg')}}' alt='' width='510px'><br><br>
+
+
                 Pada tahun 1996 ICMI Bogor memprakarsai berdirinya Bank Pembiayaan Rakyat Syariah (BPRS)
                 Bina Rahmah untuk menumbuhkan ekonomi masyarakat atas
                 dasar syariah islam dan membantu pengeloolaan dana
@@ -1044,6 +1068,9 @@
               <div style="margin:0px">
                 <a href="http://www.ipbsciencepark.com/" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                 data-original-title="
+                <img src='{{asset('images/hoverimage/ipb-sprk.jpg')}}' alt='' width='510px'><br><br>
+
+
                 IPB Science Park merupakan kawasan untuk mendukung
                 pengembangan dan komersialisasi hasil inovasi produk
                 dan jasa bidang pertanian tropis, pangan, dan biosains
@@ -1062,6 +1089,8 @@
               <div style="margin:0px">
                 <a href="https://www.ipbconventionhotel.com/" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                 data-original-title="
+                <img src='{{asset('images/hoverimage/ipb-hotel-iicc.jpg')}}' alt='' width='510px'><br><br>
+
                 Salah satu unit bisnis yang dimiliki oleh BLST adalah
                 IPB IICC dan IPB Convention Hotel yang memiliki 34 kamar
                 sebagai pendukung IPB IICC. Kedua unit ini kemudian digabungkan pada tahun 2014
@@ -1078,6 +1107,9 @@
               <div style="margin:0px">
                 <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                 data-original-title="
+                <img src='{{asset('images/hoverimage/ipb-press.jpg')}}' alt='' width='510px'><br><br>
+
+
                 PT IPB Press hadir sejak tahun 2009 sebagai perusahaan
                 penerbitan yang memiliki fokus menyalurkan ilmu dan hasil
                 riset penelitian kepada masyarakat luas agar tercipta
@@ -1252,7 +1284,7 @@ function showSlides(n) {
 
 <script>
 $(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip({animation: false});
+    $('[data-toggle="tooltip"]').tooltip({animation: false,html: true});
 });
 </script>
 
