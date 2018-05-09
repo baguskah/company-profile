@@ -1139,6 +1139,8 @@
               <div style="margin:0px">
                 <a href="https://web.facebook.com/botanisquaremall/" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                 data-original-title="
+                <img src='{{asset('images/hoverimage/bac-ipb.jpg')}}' alt='' width='510px'><br><br>
+
                 Botani Square atau Bogor Botanical Square merupakan
                 salah satu pusat perbelanjaan terbesar dan terlengkap
                 di Kota Bogor. Oleh karena itu, tidak mengherankan jika
@@ -1160,6 +1162,9 @@
               <div style="margin:0px">
                 <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                 data-original-title="
+                <img src='{{asset('images/hoverimage/gwc-ipb.jpg')}}' alt='' width='510px'><br><br>
+
+
                 Hotel Santika Bogor Merupakan salah satu hunian terbaik di Kota Bogor karena terletak di lokasi yang sangat strategis.
                 Masyarakat dapat menikmati fasiitas hunian kamar dalam lima unit kelas.
                 Diantara Hunian kamar tersebut yaitu 109 unit superior, 26 unit Deluxe, 10 unit Executive, 7 unit suite, dan 1 unit Presidential Suite
@@ -1176,6 +1181,9 @@
               <div style="margin:0px">
                 <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                 data-original-title="
+                <img src='{{asset('images/hoverimage/plaza-botani.jpg')}}' alt='' width='510px'><br><br>
+
+
                 Plaza Botanical terletak melayani jasa perparkiran di kompleks
                 Baranang Siang Bogor baik untuk penggunaan fasilitas shuttle Damri Bandara Soekarno Hatta IPB Convention Hotel, maupun mau Botani Square
                 ">
