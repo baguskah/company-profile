@@ -765,6 +765,10 @@ column-count: 2;
 column-gap: 20px;
 }
 
+.column-3{
+  column-count:3;
+}
+
 .list-perusahaan{
   margin-top: 100px;
   margin-bottom: 40px;
@@ -972,7 +976,7 @@ display: block;
 .dirut-quote {
     text-align: right;
     width: 47%;
-    font-size: 15pt;
+    font-size: 13pt;
     color: black;
     position: absolute;
     right: 35px;

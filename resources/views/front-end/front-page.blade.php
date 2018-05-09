@@ -230,6 +230,7 @@
         <li><a id="tentang-kami-tab" data-toggle="pill" href="#tentang-kami" role="tab" aria-controls="home" aria-selected="true" class="nav-link tab-atas active" href="#">Tentang Kami</a></li>
         {{-- <li><a id="portfolio-bisnis-tab" data-toggle="pill" href="#portfolio-bisnis" role="tab" aria-controls="home" aria-selected="true" class="nav-link tab-atas" href="#">Portfolio Bisnis</a></li> --}}
         <li><a id="kepemilikan-saham-tab" data-toggle="pill" href="#kepemilikan-saham" role="tab" aria-controls="home" aria-selected="true" class="nav-link tab-atas" href="#">Kepemilikan Saham</a></li>
+        <li><a id="visi-misi-tab" data-toggle="pill" href="#visi-misi" role="tab" aria-controls="home" aria-selected="true" class="nav-link tab-atas" href="#">Visi & Misi</a></li>
       </ul>
 
       <div class="tab-content tab-wrapper-tentang-kami" id="pills-tabContent">
@@ -629,6 +630,56 @@
           </div>
           </div>
 
+        </div>
+        <div class="tab-pane fade" id="visi-misi" role="tabpanel" aria-labelledby="pills-contact-tab">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-4" style="padding-top: 97px; padding-left:50px">
+                <div class="tagline-company " >
+                  VISI
+                </div>
+                <p style="font-size: 15pt; text-align: center;" >Menjadi perusahaan induk IPB berbasis inovasi dan kepakaran
+                  terbaik dan terdepan untuk kemajuan industri pertanian kelautan,
+                  dan biosains tropika Indonesia yang berdaya saing dan berkelanjutan
+                </p>
+
+              </div>
+              <div class="col-md-8 deskripsi-features" style="padding-top: 97px;">
+                <div class="tagline-company ">
+                  Misi
+                </div>
+
+
+                  <p class="column-3" style="line-height: 18px;">
+
+                      Menghadirkan dan mengomersialkan inovasi dan kepakaran
+                      terbaik IPB guna menciptakan masa depan industri pertanian,
+                      kelautan, dan biosains tropika Indonesia yang lebih berdaya
+                      saing dan berkelanjutan
+                    <br><br>
+
+                      Bekerja sama erat dan bersinergi dengan seluruh institusi
+                      IPB dan lembaga lain dalam dan luar negeri dan proses
+                      menghadirkan dan mengomersialkan inovasi dan kepakaran terbaik IPB.
+                    <br><br>
+
+                      Menumbuhkembangkan kewirausahaan generasi muda civitas
+                      akademika dan alumni IPB serta masyarakat Indonesia,
+                    <br><br><br>
+
+                      Memberikan manfaat finansial bagi IPB untuk membangun institusi pendidikan yang berkelas dunia.
+                    <br><br>
+
+                      Memberikan nilai penghargaan dan apresiasi komersial bagi
+                      inovasi dan kepakaran IPB untuk peningkatan kesejahteraan
+                    <br><br>
+                  </p>
+
+
+              </div>
+
+            </div>
+          </div>
         </div>
       </div>
 
