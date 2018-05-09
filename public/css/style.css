@@ -1025,3 +1025,16 @@ line-height: 0.8;
 .button-wraper-black span:hover{
   background:#494949;
 }
+
+.footer-company{
+  background:#333333;
+  color:#9a9a9a;
+}
+
+.logo-footer img{
+  width: 190px;
+}
+
+.footer-company{
+  padding:40px
+}

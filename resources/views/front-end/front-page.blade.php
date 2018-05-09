@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     {{-- <meta name="viewport" content="width=device-width, initial-scale=1"> --}}
-    <title>PT BLST</title>
+    <title>PT BLST | HOLDING COMPANY IPB</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
@@ -753,6 +753,84 @@
           {{-- @for ($i = 0; $i < 8; $i++) --}}
             <li>
               <div style="margin:0px">
+                <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
+                data-original-title="
+                PT Agri Lestari Indoneia (ALIN) adalah perusahaan yang bergerak dalam bidang perdagangan
+                hasil pertanian dan kesehatan hewan. ALIN berkomitmen
+                menjadi perusahaan yang turut serta mendukung komersialisasi
+                hasil Inovasi IPB dalam bidang peternakan, kesehatan hewan dan perdagangan
+                <br><br>
+                ALIN beridiri sejak tahun 2016, dengan fokus kegiatan
+                saat ini adalah produksi dan penjalan feed additive ternak perah
+                berbahan dasar alami untuk membantu meningkatkan produktivitas pada ternak ruminansia
+                ">
+                  Agri Lestari Indonesia
+                </a>
+              </div>
+              <div class="">
+                <i>feed additives</i>
+              </div>
+            </li>
+            <li>
+              <div style="margin:0px">
+                <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
+                data-original-title="
+                Merupakan sub unit yang memproduksi material biologis dari Fetus Macacca Fascicularis (Monyet Ekor Panjang)
+                Untuk vaksin polio yang di absorb oleh Biofarma.
+                Selain Vaksin Polio, Juga diproduksi antibodi untuk
+                Avian Influenza (AI)/Flu Burung. Aktivitas penelitian dan pengembangan produk sepenuhnya dilaksanakan oleh pusat studi satwa Primata.
+                <br><br>
+                Sedangkan penelitian dan pengembangan antibodi yg dilaksanakan di laboratorium IPB Bioscience Industry BLS dan Bagian mikrobiologi Medik Fakultas Kedokteran Hewan, IPB
+
+                ">
+                  Biomedical Technology Indonesia
+                </a>
+              </div>
+              <div class="">
+                <i>material biologis vaksin polio</i>
+              </div>
+            </li>
+            <li>
+              <div style="margin:0px">
+                <a href="https://web.facebook.com/Botaniseed/" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
+                data-original-title="
+                Botani Seed Indonesia (BOSI) adalah perusahaan yang bergerak dalam sektor perbenihan.
+                Kami berkomitmen menjadi perusahaan yang turut serta mendukung komersialisasi hasil inovasi IPB dalam bidang pertanian.
+                <br><br>
+                BOSI berdiri sejak tahun 2016, dengan fokus kegiataan saat ini adalah produksi dan penjualan benih.
+                ">
+                  Botani Seed Indonesia
+                </a>
+              </div>
+              <div class="">
+                <i>produksi benih</i>
+              </div>
+            </li>
+            <li>
+              <div style="margin:0px">
+                <a href="https://web.facebook.com/fitsyourlifebetter.1/" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
+                data-original-title="
+                Bermula dari sebuah program bernama Food Industrial Teaching System (FITS)
+                yang dibentuk oleh Jurusan Teknologi Pangan IPB untuk
+                membantu para mahasiswanya memahami lebih dalam tentang dunia industri pangan di lingkungan kampus.
+                <br><br>
+                PT FITS Mandiri pun kemudian didirikan secara resmi
+                pada 19 Mei 2000 demi mendukung kegiatan pengembangan dan
+                produksi prpoduk pangan secara komersial pada skala yang lebih besar.
+                Kemudian pada tahun 2015 aktivitas produksi dan manajemen
+                diserahkan ke PT BLST dan menjadikannya perusahaan yang
+                memiliki visi menjadi perusahaan pusat pengembangan produk pangan fungsional
+                ">
+                  FITS Mandiri
+                </a>
+              </div>
+              <div class="">
+                <i>functional food</i>
+              </div>
+            </li>
+
+            <li>
+              <div style="margin:0px">
                 <a href="http://ipbtraining.com" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                 data-original-title="
                 PT Global Scholarship Services Indonesia (GSSI),
@@ -795,47 +873,24 @@
                 <i>produksi vaksin flu burung</i>
               </div>
             </li>
-            <li>
-              <div style="margin:0px">
-                <a href="https://web.facebook.com/fitsyourlifebetter.1/" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
-                data-original-title="
-                Bermula dari sebuah program bernama Food Industrial Teaching System (FITS)
-                yang dibentuk oleh Jurusan Teknologi Pangan IPB untuk
-                membantu para mahasiswanya memahami lebih dalam tentang dunia industri pangan di lingkungan kampus.
-                <br><br>
-                PT FITS Mandiri pun kemudian didirikan secara resmi
-                pada 19 Mei 2000 demi mendukung kegiatan pengembangan dan
-                produksi prpoduk pangan secara komersial pada skala yang lebih besar.
-                Kemudian pada tahun 2015 aktivitas produksi dan manajemen
-                diserahkan ke PT BLST dan menjadikannya perusahaan yang
-                memiliki visi menjadi perusahaan pusat pengembangan produk pangan fungsional
-                ">
-                  FITS Mandiri
-                </a>
-              </div>
-              <div class="">
-                <i>functional food</i>
-              </div>
-            </li>
+
             <li>
               <div style="margin:0px">
                 <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                 data-original-title="
-                Merupakan sub unit yang memproduksi material biologis dari Fetus Macacca Fascicularis (Monyet Ekor Panjang)
-                Untuk vaksin polio yang di absorb oleh Biofarma.
-                Selain Vaksin Polio, Juga diproduksi antibodi untuk
-                Avian Influenza (AI)/Flu Burung. Aktivitas penelitian dan pengembangan produk sepenuhnya dilaksanakan oleh pusat studi satwa Primata.
-                <br><br>
-                Sedangkan penelitian dan pengembangan antibodi yg dilaksanakan di laboratorium IPB Bioscience Industry BLS dan Bagian mikrobiologi Medik Fakultas Kedokteran Hewan, IPB
-
+                Pada tahun 2015, PT Primakelola Agribisnis Agroindustri
+                berganti nama menjadi PT Prima Kelola IPB yang memiliki
+                program kegiatan seperti pelatihan, konsultasi, penelitian terapan,
+                pembinaan, monitoring dan evaluasi, ontrak manajemen, serta kerja sama investasi.
                 ">
-                  Biomedical Technology Indonesia
+                  Prima Kelola IPB
                 </a>
               </div>
               <div class="">
-                <i>material biologis vaksin polio</i>
+                <i>konsultan</i>
               </div>
             </li>
+
             <li>
               <div style="margin:0px">
                 <a href="http://www.serambibotani.com/" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
@@ -855,58 +910,7 @@
                 <i>ritel produk sehat alami</i>
               </div>
             </li>
-            <li>
-              <div style="margin:0px">
-                <a href="https://web.facebook.com/Botaniseed/" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
-                data-original-title="
-                Botani Seed Indonesia (BOSI) adalah perusahaan yang bergerak dalam sektor perbenihan.
-                Kami berkomitmen menjadi perusahaan yang turut serta mendukung komersialisasi hasil inovasi IPB dalam bidang pertanian.
-                <br><br>
-                BOSI berdiri sejak tahun 2016, dengan fokus kegiataan saat ini adalah produksi dan penjualan benih.
-                ">
-                  Botani Seed Indonesia
-                </a>
-              </div>
-              <div class="">
-                <i>produksi benih</i>
-              </div>
-            </li>
-            <li>
-              <div style="margin:0px">
-                <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
-                data-original-title="
-                PT Agri Lestari Indoneia (ALIN) adalah perusahaan yang bergerak dalam bidang perdagangan
-                hasil pertanian dan kesehatan hewan. ALIN berkomitmen
-                menjadi perusahaan yang turut serta mendukung komersialisasi
-                hasil Inovasi IPB dalam bidang peternakan, kesehatan hewan dan perdagangan
-                <br><br>
-                ALIN beridiri sejak tahun 2016, dengan fokus kegiatan
-                saat ini adalah produksi dan penjalan feed additive ternak perah
-                berbahan dasar alami untuk membantu meningkatkan produktivitas pada ternak ruminansia
-                ">
-                  Agri Lestari Indonesia
-                </a>
-              </div>
-              <div class="">
-                <i>feed additives</i>
-              </div>
-            </li>
-            <li>
-              <div style="margin:0px">
-                <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
-                data-original-title="
-                Pada tahun 2015, PT Primakelola Agribisnis Agroindustri
-                berganti nama menjadi PT Prima Kelola IPB yang memiliki
-                program kegiatan seperti pelatihan, konsultasi, penelitian terapan,
-                pembinaan, monitoring dan evaluasi, ontrak manajemen, serta kerja sama investasi.
-                ">
-                  Prima Kelola IPB
-                </a>
-              </div>
-              <div class="">
-                <i>konsultan</i>
-              </div>
-            </li>
+
           {{-- @endfor --}}
         </ol>
       </div>
@@ -918,6 +922,24 @@
       <div class="list-perusahaan">
         <ol>
           {{-- @for ($i = 0; $i < 4; $i++) --}}
+            <li>
+              <div style="margin:0px">
+                <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
+                data-original-title="
+                Pada tahun 1996 ICMI Bogor memprakarsai berdirinya Bank Pembiayaan Rakyat Syariah (BPRS)
+                Bina Rahmah untuk menumbuhkan ekonomi masyarakat atas
+                dasar syariah islam dan membantu pengeloolaan dana
+                secara syariah Islam yang kaffaah. Kemudian pada tahun
+                2013 BPRS Bina Rahmah diakuisisi oleh BLST sehingga
+                terhitung dari tanggal tersebut resmi di bawah naungan holding company IPB ini.
+                ">
+                  BPRS Bina Rahmah
+                </a>
+              </div>
+              <div class="">
+                <i>pembiayaan syariah</i>
+              </div>
+            </li>
             <li>
               <div style="margin:0px">
                 <a href="http://www.ipbsciencepark.com/" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
@@ -969,24 +991,7 @@
                 <i>penerbitan dan percetakan</i>
               </div>
             </li>
-            <li>
-              <div style="margin:0px">
-                <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
-                data-original-title="
-                Pada tahun 1996 ICMI Bogor memprakarsai berdirinya Bank Pembiayaan Rakyat Syariah (BPRS)
-                Bina Rahmah untuk menumbuhkan ekonomi masyarakat atas
-                dasar syariah islam dan membantu pengeloolaan dana
-                secara syariah Islam yang kaffaah. Kemudian pada tahun
-                2013 BPRS Bina Rahmah diakuisisi oleh BLST sehingga
-                terhitung dari tanggal tersebut resmi di bawah naungan holding company IPB ini.
-                ">
-                  BPRS Bina Rahmah
-                </a>
-              </div>
-              <div class="">
-                <i>pembiayaan syariah</i>
-              </div>
-            </li>
+
           {{-- @endfor --}}
         </ol>
       </div>
@@ -1056,6 +1061,25 @@
 
   </div>
 
+</div>
+
+<div class="container-fluid content-portfolio-business">
+  <div class="row">
+    <div class="col-sm-12 no-padding footer-company">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="logo-footer">
+            <img src="{{asset('images/logo-company.png')}}" alt="">
+          </div>
+          <p>Holding Company of IPB</p>
+        </div>
+        <div class="col-sm-9">
+          <h5>PT Bogor Life Science and Technology</h5>
+          <p>Jl. Taman Kencana No.3, Babakan, Bogor Tengah, Kota Bogor, Jawa Barat 16128 <br> (0251) 8384422</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 
