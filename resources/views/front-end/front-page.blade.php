@@ -231,6 +231,9 @@
         {{-- <li><a id="portfolio-bisnis-tab" data-toggle="pill" href="#portfolio-bisnis" role="tab" aria-controls="home" aria-selected="true" class="nav-link tab-atas" href="#">Portfolio Bisnis</a></li> --}}
         <li><a id="kepemilikan-saham-tab" data-toggle="pill" href="#kepemilikan-saham" role="tab" aria-controls="home" aria-selected="true" class="nav-link tab-atas" href="#">Kepemilikan Saham</a></li>
         <li><a id="visi-misi-tab" data-toggle="pill" href="#visi-misi" role="tab" aria-controls="home" aria-selected="true" class="nav-link tab-atas" href="#">Visi & Misi</a></li>
+        <li><a id="manajemen-blst-tab" data-toggle="pill" href="#manajemen-blst" role="tab" aria-controls="home" aria-selected="true" class="nav-link tab-atas" href="#">Manajemen</a></li>
+        <li><a id="struktur-blst-tab" data-toggle="pill" href="#struktur-blst" role="tab" aria-controls="home" aria-selected="true" class="nav-link tab-atas" href="#">Struktur Organisasi</a></li>
+
       </ul>
 
       <div class="tab-content tab-wrapper-tentang-kami" id="pills-tabContent">
@@ -681,6 +684,103 @@
             </div>
           </div>
         </div>
+
+        <div class="tab-pane fade" id="manajemen-blst" role="tabpanel" aria-labelledby="pills-contact-tab">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6" style="padding-top: 97px; padding-left:50px">
+                <div class="tagline-company " >
+                  DEWAN KOMISARIS
+                </div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="direksi-wrapper">
+                      <div class="img-direksi">
+                        <img src="{{asset('images/blstdir/dr-ir-arif-imam-suroso.jpg')}}" alt="">
+                      </div>
+                      <div class="title-direksi">
+                        <h6>Komisaris Utama</h6>
+                        <p>Dr Ir Arif Imam Suroso, MSc CS</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="direksi-wrapper">
+                      <div class="img-direksi">
+                        <img src="{{asset('images/blstdir/prof-dr-ir-abdul-aziz-darwis.jpg')}}" alt="">
+                      </div>
+                      <div class="title-direksi">
+                        <h6>Komisaris</h6>
+                        <p>Prof Dr Ir Abdul Aziz Darwis, MSc (almarhum)</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="direksi-wrapper">
+                      <div class="img-direksi">
+                        <img src="{{asset('images/blstdir/prof-dr-ir-iding-m-padlinurjaji.jpg')}}" alt="">
+                      </div>
+                      <div class="title-direksi">
+                        <h6>Komisaris</h6>
+                        <p>Prof Dr Ir Iding M. Padlinurjaji</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 deskripsi-features" style="padding-top: 97px;">
+                <div class="tagline-company " >
+                  DIREKSI
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="direksi-wrapper">
+                      <div class="img-direksi">
+                        <img src="{{asset('images/blstdir/dr-meika-syahbana-rusli.jpg')}}" alt="">
+                      </div>
+                      <div class="title-direksi">
+                        <h6>Direktur Utama</h6>
+                        <p>Dr Meika Syahbana Rusli</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="direksi-wrapper">
+                      <div class="img-direksi">
+                        <img src="{{asset('images/blstdir/prof-drh-dondin-sajuthi-phd.jpg')}}" alt="">
+                      </div>
+                      <div class="title-direksi">
+                        <h6>Direktur</h6>
+                        <p>Prof drh Dondin Sajuthi, PhD</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="struktur-blst" role="tabpanel" aria-labelledby="pills-contact-tab">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12 text-center" style="margin:40px">
+                <div class="tagline-company" >
+                  Struktur Organisasi
+                </div>
+
+                <img width="700px" src="{{asset('images/blstdir/blst-organization-structure.png')}}" class="img img-responsive" alt="">
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+
       </div>
 
 

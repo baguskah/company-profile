@@ -1038,3 +1038,17 @@ line-height: 0.8;
 .footer-company{
   padding:40px
 }
+
+.direksi-wrapper{
+  text-align:center;
+  padding: 20px;
+}
+
+.img-direksi img {
+    width: 144px;
+    margin-bottom: 17px;
+}
+
+.title-direksi {
+    font-size: 9pt;
+}
