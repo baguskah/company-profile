@@ -6,19 +6,40 @@
     {{-- <meta name="viewport" content="width=device-width, initial-scale=1"> --}}
     <title>PT BLST | HOLDING COMPANY IPB</title>
 
-    <!-- Bootstrap -->
+    {{-- <!-- Bootstrap --> --}}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    {{-- <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <![endif]--> --}}
+    {{-- <!-- Global site tag (gtag.js) - Google Analytics --> --}}
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118960049-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-118960049-1');
+    </script>
+    {{-- <!-- Google Tag Manager --> --}}
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WJL7VPQ');</script>
+  <!-- End Google Tag Manager -->
+
   </head>
   <body>
+        {{-- <!-- Google Tag Manager (noscript) --> --}}
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJL7VPQ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    {{-- <!-- End Google Tag Manager (noscript) --> --}}
     {{-- Slider --}}
     <div class="row">
       <div style="text-align:center" id="slider-navigation">
