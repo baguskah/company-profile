@@ -113,7 +113,7 @@
                         </select>
                       </div> --}}
                       <div class="search-warper">
-                        <span style="cursor:pointer" class="fa fa-search"></span>
+                        {{-- <span style="cursor:pointer" class="fa fa-search"></span> --}}
                       </div>
                     </div>
                   </div>
