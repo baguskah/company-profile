@@ -106,30 +106,30 @@
 
                     </div>
                     <div class="col-md-6">
-                      <div id="language-switcher-warper">
+                      {{-- <div id="language-switcher-warper">
                         <select class="select-lg-transparent" name="">
                           <option value="">ID</option>
                           <option value="">EN</option>
                         </select>
-                      </div>
+                      </div> --}}
                       <div class="search-warper">
                         <span style="cursor:pointer" class="fa fa-search"></span>
                       </div>
                     </div>
                   </div>
                   {{-- </div> --}}
-                    <div class="">
+                    {{-- <div class="">
                       <div class="tombol-menu">
                         <span class="menuspan">Menu</span>
                         <a href="#menu"
-                        {{-- onclick="openNav()"  --}}
+                        onclick="openNav()"
                         class="icMenu">
                           <span></span>
                           <span></span>
                           <span></span>
                         </a>
                       </div>
-                    </div>
+                    </div> --}}
                 </div>
               </div>
           </div>
