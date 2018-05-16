@@ -48,7 +48,7 @@
         <span class="dot" onclick="currentSlide(3)"></span>
       </div>
       <div class="slider-wrapper slider-desktop">
-        <div class="mySlides" style="background:url({{asset('images/slider/hero2.jpg')}});background-size: auto 100%; background-position: center;">
+        <div class="mySlides" style="background:url({{asset('images/slider/hero3.jpg')}});background-size: auto 100%; background-position: center;">
           {{-- <img class="img img-responsive" src="{{asset('images/slider/hero2.jpg')}}" style="width:100%"> --}}
           <div class="container-fluid">
             <div class="text">

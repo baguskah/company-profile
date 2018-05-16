@@ -191,6 +191,7 @@
   text-transform: uppercase;
   display: block;
   line-height: 90%;
+  text-shadow: 2px 2px 8px #8a8a8a;
 }
 
 .mySlides .text .sub_cap{
@@ -201,6 +202,7 @@
   text-transform: uppercase;
   display: block;
   line-height: 90%;
+  text-shadow: 2px 2px 8px #8a8a8a;
 }
 
 /* The dots/bullets/indicators */
