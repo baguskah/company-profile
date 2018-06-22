@@ -717,15 +717,15 @@
                   <div class="col-md-4">
                     <div class="direksi-wrapper">
                       <div class="img-direksi">
-                        <img src="{{asset('images/blstdir/dr-ir-arif-imam-suroso.jpg')}}" alt="">
+                        <img src="{{asset('images/blstdir/prof-dr-erica-budiarti-laconi.jpg')}}" alt="">
                       </div>
                       <div class="title-direksi">
                         <h6>Komisaris Utama</h6>
-                        <p>Dr Ir Arif Imam Suroso, MSc CS</p>
+                        <p>Prof Dr Erica Budiarti Laconi</p>
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4">
+                  {{-- <div class="col-md-4">
                     <div class="direksi-wrapper">
                       <div class="img-direksi">
                         <img src="{{asset('images/blstdir/prof-dr-ir-abdul-aziz-darwis.jpg')}}" alt="">
@@ -735,7 +735,7 @@
                         <p>Prof Dr Ir Abdul Aziz Darwis, MSc (almarhum)</p>
                       </div>
                     </div>
-                  </div>
+                  </div> --}}
                   <div class="col-md-4">
                     <div class="direksi-wrapper">
                       <div class="img-direksi">
@@ -838,12 +838,12 @@
         <div class="col-md-4 nopadding">
           <div class="content-box download-front-section" style="color:white;">
             <h2 class="content-box-head" style="text-align: right;  width: 313px;float: right;position: absolute;right: 30px;">
-              DOWNLOAD<br>PROFIL<br>BLST</h2>
+              DOWNLOAD<br>BOOKLET<br>BLST</h2>
               <div class="download-annual" style="margin-top: 56px;">
-                <img style="max-width:200px" src="{{asset('images/background/annual-book.jpg')}}" class="" alt="">
+                <img style="max-width: 98px; padding-bottom: 12px;" src="{{asset('images/background/booklet-blst.jpg')}}" class="" alt="">
               </div>
             <div class="button-wraper-black">
-              <a href="http://ipbsciencetechnopark.com/blst/asset/profil-pt-blst.pdf" target="_blank">
+              <a href="http://ipbsciencetechnopark.com/blst/asset/booklet-blst.pdf" target="_blank">
                 <span class="btn">Download</span>
               </a>
             </div>
