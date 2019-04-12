@@ -503,7 +503,7 @@
                       </li>
                       <li>
                         <div style="margin:0px">
-                          <a href="#" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
+                          <a href="https://ipbpress.com" target="_blank" data-toggle="tooltip" class="red-tooltip"  data-html="true" title=""
                           data-original-title="
                           PT IPB Press hadir sejak tahun 2009 sebagai perusahaan
                           penerbitan yang memiliki fokus menyalurkan ilmu dan hasil
@@ -739,11 +739,22 @@
                   <div class="col-md-4">
                     <div class="direksi-wrapper">
                       <div class="img-direksi">
-                        <img src="{{asset('images/blstdir/prof-dr-ir-iding-m-padlinurjaji.jpg')}}" alt="">
+                        <img src="{{asset('images/blstdir/prof-dr-ir-Dudung Darusman.jpg')}}" alt="">
                       </div>
                       <div class="title-direksi">
                         <h6>Komisaris</h6>
-                        <p>Prof Dr Ir Iding M. Padlinurjaji</p>
+                        <p>Prof Dr Ir Dudung Darusman</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="direksi-wrapper">
+                      <div class="img-direksi">
+                        <img src="{{asset('images/blstdir/Dr-Zulhamsyah-Imran.jpg')}}" alt="">
+                      </div>
+                      <div class="title-direksi">
+                        <h6>Komisaris</h6>
+                        <p>Dr Zulhamsyah Imran, M.Si</p>
                       </div>
                     </div>
                   </div>
