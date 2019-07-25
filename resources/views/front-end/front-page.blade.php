@@ -1108,7 +1108,7 @@
             training, consulting services, dan innovation products
             ">
               <div style="margin:0px">
-                <a href="http://www.ipbsciencepark.com/" target="_blank" >
+                <a href="http://www.sciencepark-ipb.com/" target="_blank" >
                   IPB Science Park
                 </a>
               </div>
