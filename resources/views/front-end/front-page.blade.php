@@ -824,15 +824,15 @@
   <div class="row">
     <div class="col-sm-12 col-md-12 col-xs-12">
       <div class="row">
-        <div class="col-md-4 nopadding">
+        {{-- <div class="col-md-4 nopadding">
           <div class="content-box corporate-video" style="background:url({{asset('images/background/corporate-video-background.jpg')}}); color:white">
             <h2 class="content-box-head">Corporate <br>Video</h2>
             <div class="button-wraper">
               <span href="" data-toggle="modal" data-target="#corporate-video" class="btn">Play Video</span>
             </div>
           </div>
-        </div>
-        <div class="col-md-4 nopadding">
+        </div> --}}
+        {{-- <div class="col-md-4 nopadding">
           <div class="content-box dirut-section" style="background:url({{asset('images/background/direktur-utama-background.jpg')}}); color:white; background-size: cover;">
             <div class="dirut-quote">
               "BLST sebagai holding company Institut Pertanian Bogor (IPB) mengangkat konsep Science Park sebagai inkubator bisnis perusahaan"
@@ -845,8 +845,8 @@
 
             </div>
           </div>
-        </div>
-        <div class="col-md-4 nopadding">
+        </div> --}}
+        <div class="col-md-12 nopadding">
           <div class="content-box download-front-section" style="color:white;">
             <h2 class="content-box-head" style="text-align: right;  width: 313px;float: right;position: absolute;right: 30px;">
               DOWNLOAD<br>BOOKLET<br>BLST</h2>
